@@ -135,11 +135,17 @@
   <data name="FileIO" xml:space="preserve">
     <value>File IO</value>
   </data>
+  <data name="FileWrittenSuccessfully" xml:space="preserve">
+    <value>File Written Successfully</value>
+  </data>
   <data name="IndexOutOfRange" xml:space="preserve">
     <value>Index value is out of range.</value>
   </data>
   <data name="InvalidIndexValue" xml:space="preserve">
     <value>Index value is invalid.</value>
+  </data>
+  <data name="IOWriteError" xml:space="preserve">
+    <value>IO Write Error</value>
   </data>
   <data name="Item" xml:space="preserve">
     <value>Item</value>
@@ -149,6 +155,12 @@
   </data>
   <data name="OK" xml:space="preserve">
     <value>OK</value>
+  </data>
+  <data name="ReadWrite" xml:space="preserve">
+    <value>Read/Write</value>
+  </data>
+  <data name="ReadWriteSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates writing to and reading from a file on the hard disk.  Type some text below and press the Write button in the menu to write it to a file.  This file will persist for as long as the application is installed.  Press the Read button in the menu to read the text that was last saved to the file and have it inserted below.</value>
   </data>
   <data name="SystemsAndSensors" xml:space="preserve">
     <value>Systems and Sensors</value>

@@ -116,6 +116,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to File Written Successfully.
+        /// </summary>
+        internal static string FileWrittenSuccessfully {
+            get {
+                return ResourceManager.GetString("FileWrittenSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index value is out of range..
         /// </summary>
         internal static string IndexOutOfRange {
@@ -130,6 +139,15 @@ namespace SampleSuite.Resources {
         internal static string InvalidIndexValue {
             get {
                 return ResourceManager.GetString("InvalidIndexValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to IO Write Error.
+        /// </summary>
+        internal static string IOWriteError {
+            get {
+                return ResourceManager.GetString("IOWriteError", resourceCulture);
             }
         }
         
@@ -157,6 +175,24 @@ namespace SampleSuite.Resources {
         internal static string OK {
             get {
                 return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read/Write.
+        /// </summary>
+        internal static string ReadWrite {
+            get {
+                return ResourceManager.GetString("ReadWrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates writing to and reading from a file on the hard disk.  Type some text below and press the Write button in the menu to write it to a file.  This file will persist for as long as the application is installed.  Press the Read button in the menu to read the text that was last saved to the file and have it inserted below..
+        /// </summary>
+        internal static string ReadWriteSampleDescription {
+            get {
+                return ResourceManager.GetString("ReadWriteSampleDescription", resourceCulture);
             }
         }
         
