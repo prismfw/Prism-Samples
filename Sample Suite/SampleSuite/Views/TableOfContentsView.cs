@@ -24,8 +24,7 @@ namespace SampleSuite
                     Text = Resources.Strings.TableOfContentsGreeting + Environment.NewLine + Environment.NewLine + Resources.Strings.TableOfContentsInstructions,
                     TextAlignment = TextAlignment.Center
                 },
-                HorizontalAlignment = HorizontalAlignment.Stretch,
-                Margin = (Device.Current.Orientation & DeviceOrientation.Landscape) == 0 ? SystemParameters.ContentViewHeaderInsetPortrait : SystemParameters.ContentViewHeaderInsetLandscape
+                HorizontalAlignment = HorizontalAlignment.Stretch
             };
             DockPanel.SetDock(border, Dock.Top);
 

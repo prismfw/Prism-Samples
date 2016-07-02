@@ -36,7 +36,7 @@ namespace SampleSuite
             var infoScroller = new ScrollViewer()
             {
                 Content = new Label() { Text = Model.Description, Margin = new Thickness(SystemParameters.VerticalScrollBarWidth + 2) },
-                MaxHeight = 200,
+                MaxHeight = 150,
                 Visibility = Visibility.Collapsed
             };
             
@@ -45,8 +45,7 @@ namespace SampleSuite
                 Children = { infoButton, infoScroller },
                 Background = new SolidColorBrush(Colors.LightGray),
                 Orientation = Orientation.Vertical,
-                HorizontalAlignment = HorizontalAlignment.Stretch,
-                Margin = (Device.Current.Orientation & DeviceOrientation.Landscape) == 0 ? SystemParameters.ContentViewHeaderInsetPortrait : SystemParameters.ContentViewHeaderInsetLandscape
+                HorizontalAlignment = HorizontalAlignment.Stretch
             };
             DockPanel.SetDock(infoPanel, Dock.Top);
             

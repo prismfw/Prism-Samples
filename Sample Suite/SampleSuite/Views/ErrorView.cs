@@ -19,8 +19,7 @@ namespace SampleSuite
             {
                 Text = Model?.ToString(),
                 TextAlignment = TextAlignment.Center,
-                Margin = ((Device.Current.Orientation & DeviceOrientation.Landscape) == 0 ? SystemParameters.ContentViewHeaderInsetPortrait :
-                    SystemParameters.ContentViewHeaderInsetLandscape) + new Thickness(12, 8),
+                Margin = new Thickness(12, 8),
             };
 
             return base.ConfigureUIAsync();
