@@ -47,6 +47,7 @@ namespace SampleSuite
 
         private static Category[] Categories = new Category[]
         {
+            new Category("DataBinding", new Category("SingleBinding"), new Category("MultiBinding")),
             new Category("FileIO", new Category("ReadWrite")),
             new Category("UIControls", new Category("ListBox", new Category("AddRemoveItems")))
         };

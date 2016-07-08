@@ -36,10 +36,12 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\DataBindingSamples\DataBindingSampleController.cs" />
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ListBoxSampleController.cs" />
     <Compile Include="Models\BaseSampleModel.cs" />
     <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\DataBindingSamples\DataBindingSampleModel.cs" />
     <Compile Include="Models\FileIOSamples\ReadWriteSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,6 +52,8 @@
     </Compile>
     <Compile Include="Views\BaseSampleView.cs" />
     <Compile Include="Views\CategoryView.cs" />
+    <Compile Include="Views\DataBindingSamples\MultiBindingSampleView.cs" />
+    <Compile Include="Views\DataBindingSamples\SingleBindingSampleView.cs" />
     <Compile Include="Views\ErrorView.cs" />
     <Compile Include="Views\FileIOSamples\ReadWriteSampleView.cs" />
     <Compile Include="Views\TableOfContentsView.cs" />
@@ -67,6 +71,7 @@
       <Name>PrismFramework</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

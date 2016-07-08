@@ -71,6 +71,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Blue:.
+        /// </summary>
+        internal static string Blue {
+            get {
+                return ResourceManager.GetString("Blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
         internal static string Cancel {
@@ -125,6 +134,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Green:.
+        /// </summary>
+        internal static string Green {
+            get {
+                return ResourceManager.GetString("Green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index value is out of range..
         /// </summary>
         internal static string IndexOutOfRange {
@@ -170,6 +188,33 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mode: {0}.
+        /// </summary>
+        internal static string Mode {
+            get {
+                return ResourceManager.GetString("Mode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to MultiBinding.
+        /// </summary>
+        internal static string MultiBinding {
+            get {
+                return ResourceManager.GetString("MultiBinding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates a data binding with a target property bound to multiple source properties.  Each one of the sliders here determine one of the color components for the UI element below.  Every time one of the slider values is changed, the color is changed to match the values of all sliders.  Additionally, this sample also demonstrates how individual bindings that make up a MultiBinding can define their own behavioral characteristics, in this case having a different mode for the label text that shows [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string MultiBindingSampleDescription {
+            get {
+                return ResourceManager.GetString("MultiBindingSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to OK.
         /// </summary>
         internal static string OK {
@@ -193,6 +238,51 @@ namespace SampleSuite.Resources {
         internal static string ReadWriteSampleDescription {
             get {
                 return ResourceManager.GetString("ReadWriteSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Red:.
+        /// </summary>
+        internal static string Red {
+            get {
+                return ResourceManager.GetString("Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to R: {0}, G: {1}, B: {2}.
+        /// </summary>
+        internal static string RGB {
+            get {
+                return ResourceManager.GetString("RGB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Single Binding.
+        /// </summary>
+        internal static string SingleBinding {
+            get {
+                return ResourceManager.GetString("SingleBinding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates a simple data binding between two objects.  As the text of one TextBox changes, the text of the other TextBox will change to match it.  You can change the direction of the binding by pressing the button below..
+        /// </summary>
+        internal static string SingleBindingSampleDescription {
+            get {
+                return ResourceManager.GetString("SingleBindingSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source Object:.
+        /// </summary>
+        internal static string SourceObject {
+            get {
+                return ResourceManager.GetString("SourceObject", resourceCulture);
             }
         }
         
@@ -229,6 +319,15 @@ namespace SampleSuite.Resources {
         internal static string TableOfContentsTitle {
             get {
                 return ResourceManager.GetString("TableOfContentsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Target Object:.
+        /// </summary>
+        internal static string TargetObject {
+            get {
+                return ResourceManager.GetString("TargetObject", resourceCulture);
             }
         }
         
