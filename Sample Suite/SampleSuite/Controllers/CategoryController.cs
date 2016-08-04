@@ -22,7 +22,7 @@ namespace SampleSuite
                     Model = Resources.Strings.UnknownCategoryError;
                     return Task.FromResult(ErrorView.Perspective);
                 }
-                
+
                 if (category.Subcategories.Count == 0)
                 {
                     var currentCat = category;
@@ -49,6 +49,7 @@ namespace SampleSuite
         {
             new Category("DataBinding", new Category("SingleBinding"), new Category("MultiBinding")),
             new Category("FileIO", new Category("ReadWrite")),
+            new Category("RootViews"),
             new Category("UIControls", new Category("ListBox", new Category("AddRemoveItems")))
         };
     }

@@ -213,4 +213,25 @@
   <data name="TargetObject" xml:space="preserve">
     <value>Target Object:</value>
   </data>
+  <data name="RootViews" xml:space="preserve">
+    <value>Root Views</value>
+  </data>
+  <data name="RootViewSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates different kinds of root views for the application window.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents.</value>
+  </data>
+  <data name="SingleView" xml:space="preserve">
+    <value>Single View</value>
+  </data>
+  <data name="SplitView" xml:space="preserve">
+    <value>SplitView</value>
+  </data>
+  <data name="Tab" xml:space="preserve">
+    <value>Tab {0}</value>
+  </data>
+  <data name="TabbedSplitView" xml:space="preserve">
+    <value>TabbedSplitView</value>
+  </data>
+  <data name="TabView" xml:space="preserve">
+    <value>TabView</value>
+  </data>
 </root>

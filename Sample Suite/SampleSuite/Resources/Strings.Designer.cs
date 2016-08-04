@@ -260,6 +260,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Root Views.
+        /// </summary>
+        internal static string RootViews {
+            get {
+                return ResourceManager.GetString("RootViews", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates different kinds of root views for the application window.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents..
+        /// </summary>
+        internal static string RootViewSampleDescription {
+            get {
+                return ResourceManager.GetString("RootViewSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Single Binding.
         /// </summary>
         internal static string SingleBinding {
@@ -278,6 +296,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Single View.
+        /// </summary>
+        internal static string SingleView {
+            get {
+                return ResourceManager.GetString("SingleView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Source Object:.
         /// </summary>
         internal static string SourceObject {
@@ -287,11 +314,38 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SplitView.
+        /// </summary>
+        internal static string SplitView {
+            get {
+                return ResourceManager.GetString("SplitView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Systems and Sensors.
         /// </summary>
         internal static string SystemsAndSensors {
             get {
                 return ResourceManager.GetString("SystemsAndSensors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tab {0}.
+        /// </summary>
+        internal static string Tab {
+            get {
+                return ResourceManager.GetString("Tab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TabbedSplitView.
+        /// </summary>
+        internal static string TabbedSplitView {
+            get {
+                return ResourceManager.GetString("TabbedSplitView", resourceCulture);
             }
         }
         
@@ -319,6 +373,15 @@ namespace SampleSuite.Resources {
         internal static string TableOfContentsTitle {
             get {
                 return ResourceManager.GetString("TableOfContentsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TabView.
+        /// </summary>
+        internal static string TabView {
+            get {
+                return ResourceManager.GetString("TabView", resourceCulture);
             }
         }
         

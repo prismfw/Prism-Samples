@@ -58,6 +58,9 @@
     <Compile Include="Views\FileIOSamples\ReadWriteSampleView.cs" />
     <Compile Include="Views\TableOfContentsView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxAddRemoveSampleView.cs" />
+    <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />
+    <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
+    <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Strings.resx">
@@ -72,6 +75,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\RootViewSamples\" />
+    <Folder Include="Controllers\RootViewSamples\" />
+    <Folder Include="Models\RootViewSamples\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
