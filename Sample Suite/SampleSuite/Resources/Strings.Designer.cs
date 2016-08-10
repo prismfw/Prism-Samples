@@ -215,6 +215,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Normal.
+        /// </summary>
+        internal static string Normal {
+            get {
+                return ResourceManager.GetString("Normal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to OK.
         /// </summary>
         internal static string OK {
@@ -278,6 +287,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rotation.
+        /// </summary>
+        internal static string Rotation {
+            get {
+                return ResourceManager.GetString("Rotation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scale.
+        /// </summary>
+        internal static string Scale {
+            get {
+                return ResourceManager.GetString("Scale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Single Binding.
         /// </summary>
         internal static string SingleBinding {
@@ -301,6 +328,15 @@ namespace SampleSuite.Resources {
         internal static string SingleView {
             get {
                 return ResourceManager.GetString("SingleView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Skew.
+        /// </summary>
+        internal static string Skew {
+            get {
+                return ResourceManager.GetString("Skew", resourceCulture);
             }
         }
         
@@ -391,6 +427,33 @@ namespace SampleSuite.Resources {
         internal static string TargetObject {
             get {
                 return ResourceManager.GetString("TargetObject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transform.
+        /// </summary>
+        internal static string Transform {
+            get {
+                return ResourceManager.GetString("Transform", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the use of different transforming options to modify the way that an element is rendered.  The &apos;Normal&apos; example shows what the element looks like without any transformation applied to it.  The other examples show the use of TranslateTransform, RotateTransform, ScaleTransform, and SkewTransform..
+        /// </summary>
+        internal static string TransformSampleDescription {
+            get {
+                return ResourceManager.GetString("TransformSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translation.
+        /// </summary>
+        internal static string Translation {
+            get {
+                return ResourceManager.GetString("Translation", resourceCulture);
             }
         }
         

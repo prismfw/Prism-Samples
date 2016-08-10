@@ -234,4 +234,25 @@
   <data name="TabView" xml:space="preserve">
     <value>TabView</value>
   </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Rotation" xml:space="preserve">
+    <value>Rotation</value>
+  </data>
+  <data name="Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Skew" xml:space="preserve">
+    <value>Skew</value>
+  </data>
+  <data name="Transform" xml:space="preserve">
+    <value>Transform</value>
+  </data>
+  <data name="TransformSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the use of different transforming options to modify the way that an element is rendered.  The 'Normal' example shows what the element looks like without any transformation applied to it.  The other examples show the use of TranslateTransform, RotateTransform, ScaleTransform, and SkewTransform.</value>
+  </data>
+  <data name="Translation" xml:space="preserve">
+    <value>Translation</value>
+  </data>
 </root>

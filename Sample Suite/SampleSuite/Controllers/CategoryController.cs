@@ -50,6 +50,7 @@ namespace SampleSuite
             new Category("DataBinding", new Category("SingleBinding"), new Category("MultiBinding")),
             new Category("FileIO", new Category("ReadWrite")),
             new Category("RootViews"),
+            new Category("Styling", new Category("Transform")),
             new Category("UIControls", new Category("ListBox", new Category("AddRemoveItems")))
         };
     }
