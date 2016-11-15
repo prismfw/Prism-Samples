@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Prism;
 using Prism.Data;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -73,11 +71,11 @@ namespace SampleSuite
                     {
                         colorDisplay,
                         colorLabel,
-                        new Label() { Text = Resources.Strings.Red },
+                        new Label() { Text = Strings.Red },
                         redSlider,
-                        new Label() { Text = Resources.Strings.Green },
+                        new Label() { Text = Strings.Green },
                         greenSlider,
-                        new Label() { Text = Resources.Strings.Blue },
+                        new Label() { Text = Strings.Blue },
                         blueSlider
                     }
                 });

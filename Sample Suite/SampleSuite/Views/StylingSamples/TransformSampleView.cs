@@ -4,6 +4,7 @@ using Prism;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -21,23 +22,23 @@ namespace SampleSuite
                 RowDefinitions = { new RowDefinition(new GridLength(1, GridUnitType.Star)), new RowDefinition(new GridLength(1, GridUnitType.Star)) }
             };
 
-            var normalPanel = GetTransformExample(null, Resources.Strings.Normal);
+            var normalPanel = GetTransformExample(null, Strings.Normal);
             Grid.SetColumnSpan(normalPanel, 2);
             Grid.SetRowSpan(normalPanel, 2);
             grid.Children.Add(normalPanel);
 
-            var translatePanel = GetTransformExample(new TranslateTransform(-25, 25), Resources.Strings.Translation);
+            var translatePanel = GetTransformExample(new TranslateTransform(-25, 25), Strings.Translation);
             grid.Children.Add(translatePanel);
             
-            var rotatePanel = GetTransformExample(new RotateTransform(135), Resources.Strings.Rotation);
+            var rotatePanel = GetTransformExample(new RotateTransform(135), Strings.Rotation);
             Grid.SetColumn(rotatePanel, 1);
             grid.Children.Add(rotatePanel);
 
-            var scalePanel = GetTransformExample(new ScaleTransform(2, 2), Resources.Strings.Scale);
+            var scalePanel = GetTransformExample(new ScaleTransform(2, 2), Strings.Scale);
             Grid.SetRow(scalePanel, 1);
             grid.Children.Add(scalePanel);
             
-            var skewPanel = GetTransformExample(new SkewTransform(20, 20), Resources.Strings.Skew);
+            var skewPanel = GetTransformExample(new SkewTransform(20, 20), Strings.Skew);
             Grid.SetColumn(skewPanel, 1);
             Grid.SetRow(skewPanel, 1);
             grid.Children.Add(skewPanel);

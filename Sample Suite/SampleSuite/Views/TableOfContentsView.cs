@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Linq;
 using System.Threading.Tasks;
 using Prism;
-using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -20,8 +19,9 @@ namespace SampleSuite
                 BorderThickness = new Thickness(0, 0, 0, 1),
                 Child = new Label()
                 {
+                    HorizontalAlignment = HorizontalAlignment.Center,
                     Margin = new Thickness(12, 8),
-                    Text = Resources.Strings.TableOfContentsGreeting + Environment.NewLine + Environment.NewLine + Resources.Strings.TableOfContentsInstructions,
+                    Text = Strings.TableOfContentsGreeting + Environment.NewLine + Environment.NewLine + Strings.TableOfContentsInstructions,
                     TextAlignment = TextAlignment.Center
                 },
                 HorizontalAlignment = HorizontalAlignment.Stretch
@@ -38,7 +38,7 @@ namespace SampleSuite
                 Navigate(typeof(CategoryController), new NavigationOptions() { Parameters = { { "category", e.Item as Category } } });
             };
 
-            Title = Resources.Strings.TableOfContentsTitle;
+            Title = Strings.TableOfContentsTitle;
             Content = new DockPanel()
             {
                 Children = { border, list },

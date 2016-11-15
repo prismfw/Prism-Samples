@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Prism;
 using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -47,15 +46,15 @@ namespace SampleSuite
 
                 border.PointerReleased += (o, e) =>
                 {
-                    if (option == Resources.Strings.SplitView && Device.Current.FormFactor != FormFactor.Phone)
+                    if (option == Strings.SplitView && Device.Current.FormFactor != FormFactor.Phone)
                     {
                         Window.Current.Content = new SplitView();
                     }
-                    else if (option == Resources.Strings.TabbedSplitView && Device.Current.FormFactor != FormFactor.Phone)
+                    else if (option == Strings.TabbedSplitView && Device.Current.FormFactor != FormFactor.Phone)
                     {
                         InitializeTabView(new TabbedSplitView());
                     }
-                    else if (option == Resources.Strings.TabView)
+                    else if (option == Strings.TabView)
                     {
                         InitializeTabView(new TabView());
                     }
@@ -81,11 +80,11 @@ namespace SampleSuite
         {
             tabView.TabItems.AddRange(new[]
             {
-                new TabItem() { Title = string.Format(Resources.Strings.Tab, 1) },
-                new TabItem() { Title = string.Format(Resources.Strings.Tab, 2) },
-                new TabItem() { Title = string.Format(Resources.Strings.Tab, 3) },
-                new TabItem() { Title = string.Format(Resources.Strings.Tab, 4) },
-                new TabItem() { Title = string.Format(Resources.Strings.Tab, 5) },
+                new TabItem() { Title = string.Format(Strings.Tab, 1) },
+                new TabItem() { Title = string.Format(Strings.Tab, 2) },
+                new TabItem() { Title = string.Format(Strings.Tab, 3) },
+                new TabItem() { Title = string.Format(Strings.Tab, 4) },
+                new TabItem() { Title = string.Format(Strings.Tab, 5) },
             });
             
             tabView.TabItemSelected += (o, e) =>

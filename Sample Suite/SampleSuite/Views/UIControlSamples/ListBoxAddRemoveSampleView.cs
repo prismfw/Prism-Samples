@@ -5,6 +5,7 @@ using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -18,7 +19,8 @@ namespace SampleSuite
 
             var listBox = new ListBox()
             {
-                Items = new ObservableCollection<object>(Model.Items)
+                Items = new ObservableCollection<object>(Model.Items),
+                SelectionMode = SelectionMode.None
             };
 
             var panel = Content as Panel;
@@ -35,7 +37,7 @@ namespace SampleSuite
                     new MenuButton()
                     {
                         Title = "+",
-                        Action = (button) => listBox.Items.Add(Resources.Strings.Item + " " + (listBox.Items.Count + 1))
+                        Action = (button) => listBox.Items.Add(Strings.Item + " " + (listBox.Items.Count + 1))
                     },
                     new MenuButton()
                     {
@@ -55,8 +57,8 @@ namespace SampleSuite
                         {
                             var textBox = new TextBox() { Margin = new Thickness(4, 12, 4, 6), BorderWidth = 1 };
                             var errorLabel = new Label() { Foreground = new SolidColorBrush(Colors.Red), Visibility = Visibility.Hidden, Text = " " };
-                            var okButton = new Button() { Title = Resources.Strings.OK, Margin = new Thickness(5), MinWidth = 96 };
-                            var cancelButton = new Button() { Title = Resources.Strings.Cancel, Margin = new Thickness(5), MinWidth = 96 };
+                            var okButton = new Button() { Title = Strings.OK, Margin = new Thickness(5), MinWidth = 96 };
+                            var cancelButton = new Button() { Title = Strings.Cancel, Margin = new Thickness(5), MinWidth = 96 };
 
                             var popup = new Popup()
                             {
@@ -79,7 +81,7 @@ namespace SampleSuite
                                     Orientation = Orientation.Vertical,
                                     Children =
                                     {
-                                        new Label() { Text = string.Format(Resources.Strings.EnterIndexValue, listBox.Items.Count) },
+                                        new Label() { Text = string.Format(Strings.EnterIndexValue, listBox.Items.Count) },
                                         textBox,
                                         errorLabel,
                                         new StackPanel()
@@ -103,7 +105,7 @@ namespace SampleSuite
                                 }
 
                                 errorLabel.Visibility = Visibility.Visible;
-                                errorLabel.Text = index == 0 ? Resources.Strings.InvalidIndexValue : Resources.Strings.IndexOutOfRange;
+                                errorLabel.Text = index == 0 ? Strings.InvalidIndexValue : Strings.IndexOutOfRange;
                                 okButton.IsEnabled = false;
                             };
 
@@ -112,7 +114,7 @@ namespace SampleSuite
                                 int index;
                                 if (int.TryParse(textBox.Text, out index))
                                 {
-                                    listBox.Items.Insert(index, Resources.Strings.Item + " " + (listBox.Items.Count + 1));
+                                    listBox.Items.Insert(index, Strings.Item + " " + (listBox.Items.Count + 1));
                                 }
 
                                 popup.Close();

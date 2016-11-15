@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Prism;
-using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -14,7 +14,7 @@ namespace SampleSuite
 
         public override Task ConfigureUIAsync()
         {
-            Title = Resources.Strings.Error;
+            Title = Strings.Error;
             Content = new Label()
             {
                 Text = Model?.ToString(),

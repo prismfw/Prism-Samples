@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using Prism;
 using Prism.IO;
-using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
-using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -48,14 +46,14 @@ namespace SampleSuite
                     {
                         await File.WriteAllTextAsync(Model.FileName, textArea.Text);
                         readButton.IsEnabled = true;
-                        resultAlert = new Alert(Resources.Strings.FileWrittenSuccessfully, string.Empty);
+                        resultAlert = new Alert(Strings.FileWrittenSuccessfully, string.Empty);
                     }
                     catch (Exception e)
                     {
-                        resultAlert = new Alert(e.Message, Resources.Strings.IOWriteError);
+                        resultAlert = new Alert(e.Message, Strings.IOWriteError);
                     }
 
-                    resultAlert.AddButton(new AlertButton(Resources.Strings.OK));
+                    resultAlert.AddButton(new AlertButton(Strings.OK));
                     resultAlert.Show();
                 }
             };            

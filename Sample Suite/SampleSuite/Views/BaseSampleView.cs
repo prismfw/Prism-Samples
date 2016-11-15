@@ -25,7 +25,7 @@ namespace SampleSuite
                 Margin = new Thickness(0, 0, 10, 0),
                 Child = new Label()
                 {
-                    FontSize = Fonts.StandardLabelFontSize + 6,
+                    FontSize = 24,
                     Foreground = new SolidColorBrush(new Color(56, 140, 252)),
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Center,
@@ -35,7 +35,7 @@ namespace SampleSuite
 
             var infoScroller = new ScrollViewer()
             {
-                Content = new Label() { Text = Model.Description, Margin = new Thickness(SystemParameters.VerticalScrollBarWidth + 2) },
+                Content = new Label() { Text = Model.Description, Margin = new Thickness((double)FindResource(SystemResources.VerticalScrollBarWidthKey) + 2) },
                 MaxHeight = 150,
                 Visibility = Visibility.Collapsed
             };

@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Prism;
 using Prism.Data;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
+using SampleSuite.Resources;
 
 namespace SampleSuite
 {
@@ -24,7 +22,7 @@ namespace SampleSuite
             {
                 HorizontalAlignment = HorizontalAlignment.Center,
                 Margin = new Thickness(0, 12),
-                Title = string.Format(Resources.Strings.Mode, BindingMode.OneWayToTarget)
+                Title = string.Format(Strings.Mode, BindingMode.OneWayToTarget)
             };
 
             var sourceTextBox = new TextBox()
@@ -52,9 +50,9 @@ namespace SampleSuite
                     Children =
                     {
                         modeButton,
-                        new Label() { Text = Resources.Strings.SourceObject },
+                        new Label() { Text = Strings.SourceObject },
                         sourceTextBox,
-                        new Label() { Text = Resources.Strings.TargetObject },
+                        new Label() { Text = Strings.TargetObject },
                         targetTextBox
                     }
                 });
@@ -70,7 +68,7 @@ namespace SampleSuite
             modeButton.Clicked += (o, e) =>
             {
                 binding.Mode = (BindingMode)(((int)binding.Mode) % 3) + 1;
-                modeButton.Title = string.Format(Resources.Strings.Mode, binding.Mode);
+                modeButton.Title = string.Format(Strings.Mode, binding.Mode);
             };
         }
     }
