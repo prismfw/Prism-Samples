@@ -255,4 +255,13 @@
   <data name="Translation" xml:space="preserve">
     <value>Translation</value>
   </data>
+  <data name="ListBoxSectioningSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the ListBox's ability to divide its content into separate sections.  Each section comes with its own customizable header that serves as a separator between itself and the previous section.  Typically, this header will "float" on top of the section's content, staying in view until the rest of the section is scrolled out of sight.</value>
+  </data>
+  <data name="Section" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="Sectioning" xml:space="preserve">
+    <value>Sectioning</value>
+  </data>
 </root>

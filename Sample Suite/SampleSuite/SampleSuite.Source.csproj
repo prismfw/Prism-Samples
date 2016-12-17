@@ -38,12 +38,14 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\DataBindingSamples\DataBindingSampleController.cs" />
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
+    <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
     <Compile Include="Controllers\StylingSamples\TransformSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ListBoxSampleController.cs" />
     <Compile Include="Models\BaseSampleModel.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\DataBindingSamples\DataBindingSampleModel.cs" />
     <Compile Include="Models\FileIOSamples\ReadWriteSampleModel.cs" />
+    <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
     <Compile Include="Models\StylingSamples\TransformSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,12 +60,11 @@
     <Compile Include="Views\DataBindingSamples\SingleBindingSampleView.cs" />
     <Compile Include="Views\ErrorView.cs" />
     <Compile Include="Views\FileIOSamples\ReadWriteSampleView.cs" />
+    <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />
     <Compile Include="Views\StylingSamples\TransformSampleView.cs" />
     <Compile Include="Views\TableOfContentsView.cs" />
+    <Compile Include="Views\UIControlSamples\ListBoxSectioningSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxAddRemoveSampleView.cs" />
-    <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />
-    <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
-    <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Strings.resx">
@@ -77,7 +78,6 @@
       <Name>PrismFramework</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

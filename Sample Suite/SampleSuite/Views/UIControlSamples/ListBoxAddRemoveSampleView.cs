@@ -9,10 +9,12 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View]
+    [View(Perspective)]
     [PreferredPanes(Panes.Detail)]
     public class ListBoxAddRemoveSampleView : BaseSampleView<ListBoxSampleModel>
     {
+        public const string Perspective = "AddRemoveItems";
+
         public override async Task ConfigureUIAsync()
         {
             await base.ConfigureUIAsync();

@@ -188,6 +188,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the ListBox&apos;s ability to divide its content into separate sections.  Each section comes with its own customizable header that serves as a separator between itself and the previous section.  Typically, this header will &quot;float&quot; on top of the section&apos;s content, staying in view until the rest of the section is scrolled out of sight..
+        /// </summary>
+        internal static string ListBoxSectioningSampleDescription {
+            get {
+                return ResourceManager.GetString("ListBoxSectioningSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mode: {0}.
         /// </summary>
         internal static string Mode {
@@ -301,6 +310,24 @@ namespace SampleSuite.Resources {
         internal static string Scale {
             get {
                 return ResourceManager.GetString("Scale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Section.
+        /// </summary>
+        internal static string Section {
+            get {
+                return ResourceManager.GetString("Section", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sectioning.
+        /// </summary>
+        internal static string Sectioning {
+            get {
+                return ResourceManager.GetString("Sectioning", resourceCulture);
             }
         }
         
