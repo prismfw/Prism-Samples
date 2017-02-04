@@ -6,7 +6,7 @@ using Prism.IO;
 
 namespace SampleSuite
 {
-    [Navigation("FileIO/{sample}")]
+    [NavigationController("FileIO/{sample}")]
     public class ReadWriteSampleController : Controller<ReadWriteSampleModel>
     {
         public override async Task<string> LoadAsync(NavigationContext context)

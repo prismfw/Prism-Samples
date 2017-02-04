@@ -4,7 +4,7 @@ using Prism;
 
 namespace SampleSuite
 {
-    [Navigation("DataBinding/{sample}")]
+    [NavigationController("DataBinding/{sample}")]
     public class DataBindingSampleController : Controller<DataBindingSampleModel>
     {
         public override Task<string> LoadAsync(NavigationContext context)

@@ -4,7 +4,7 @@ using Prism;
 
 namespace SampleSuite
 {
-    [Navigation("RootViews")]
+    [NavigationController("RootViews")]
     public class RootViewSampleController : Controller<RootViewSampleModel>
     {
         public override Task<string> LoadAsync(NavigationContext context)

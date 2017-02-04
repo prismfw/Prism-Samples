@@ -4,7 +4,7 @@ using Prism;
 
 namespace SampleSuite
 {
-    [Navigation("Styling/{sample}")]
+    [NavigationController("Styling/{sample}")]
     public class TransformSampleController : Controller<TransformSampleModel>
     {
         public override Task<string> LoadAsync(NavigationContext context)

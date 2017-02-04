@@ -6,7 +6,7 @@ using Prism.UI.Controls;
 
 namespace SampleSuite
 {
-    [View]
+    [NavigationView]
     [PreferredPanes(Panes.Master)]
     public class CategoryView : ContentView<Category>
     {

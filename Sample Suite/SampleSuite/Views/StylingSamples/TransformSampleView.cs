@@ -8,7 +8,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View]
+    [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
     public class TransformSampleView : BaseSampleView<TransformSampleModel>
     {

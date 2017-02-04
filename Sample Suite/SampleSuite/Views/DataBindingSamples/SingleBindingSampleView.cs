@@ -9,7 +9,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View(Perspective)]
+    [NavigationView(Perspective)]
     public class SingleBindingSampleView : BaseSampleView<DataBindingSampleModel>
     {
         public const string Perspective = "SingleBinding";

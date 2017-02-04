@@ -6,7 +6,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View(Perspective)]
+    [NavigationView(Perspective)]
     [PreferredPanes(Panes.Master | Panes.Detail)]
     public class ErrorView : ContentView<string>
     {

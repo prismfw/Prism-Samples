@@ -8,7 +8,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View]
+    [NavigationView]
     [PreferredPanes(Panes.Detail)]
     public class ReadWriteSampleView : BaseSampleView<ReadWriteSampleModel>
     {

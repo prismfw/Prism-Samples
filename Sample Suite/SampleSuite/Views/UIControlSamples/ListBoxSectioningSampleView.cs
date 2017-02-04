@@ -9,7 +9,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View(Perspective)]
+    [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
     public class ListBoxSectioningSampleView : BaseSampleView<ListBoxSampleModel>
     {

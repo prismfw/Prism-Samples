@@ -5,7 +5,7 @@ using Prism.UI.Controls;
 
 namespace SampleSuite
 {
-    [Navigation("UIControls/ListBox/{sample}")]
+    [NavigationController("UIControls/ListBox/{sample}")]
     public class ListBoxSampleController : Controller<ListBoxSampleModel>
     {
         public override Task<string> LoadAsync(NavigationContext context)

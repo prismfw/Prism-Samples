@@ -8,7 +8,7 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [View]
+    [NavigationView]
     public class TableOfContentsView : ContentView<Category[]>
     {
         public override Task ConfigureUIAsync()

@@ -3,7 +3,7 @@ using Prism;
 
 namespace SampleSuite
 {
-    [Navigation(Uri)]
+    [NavigationController(Uri)]
     public class CategoryController : Controller<object>
     {
         public const string Uri = "Main";
