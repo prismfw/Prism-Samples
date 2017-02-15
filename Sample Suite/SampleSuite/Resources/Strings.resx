@@ -264,4 +264,10 @@
   <data name="Sectioning" xml:space="preserve">
     <value>Sectioning</value>
   </data>
+  <data name="Brushes" xml:space="preserve">
+    <value>Brushes</value>
+  </data>
+  <data name="BrushesSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the different brushes that can be used to style UI elements.  Some objects are limited in the type of brush that they can use.  This limitation is determined by the object's native implementation that is provided by each platform, which means that different results could be seen depending on the platform being run.  If a brush cannot be used, a default value provided by the system will be used in its place.</value>
+  </data>
 </root>

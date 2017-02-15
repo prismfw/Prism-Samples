@@ -2,7 +2,7 @@
 
 namespace SampleSuite
 {
-    public class TransformSampleModel : BaseSampleModel
+    public class StylingSampleModel : BaseSampleModel
     {
     }
 }

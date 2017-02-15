@@ -10,8 +10,10 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class TransformSampleView : BaseSampleView<TransformSampleModel>
+    public class TransformSampleView : BaseSampleView<StylingSampleModel>
     {
+        public const string Perspective = "Transform";
+
         public override async Task ConfigureUIAsync()
         {
             await base.ConfigureUIAsync();
@@ -66,7 +68,7 @@ namespace SampleSuite
                     },
                     new Border()
                     {
-                        Background = new SolidColorBrush(Colors.Gray),
+                        Background = new SolidColorBrush(new Color(64, 128, 128, 128)),
                         Margin = new Thickness(12),
                         Height = 96,
                         Width = 96,
