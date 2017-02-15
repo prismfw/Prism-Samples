@@ -18,15 +18,15 @@ namespace SampleSuite
             {
                 Width = 40,
                 Height = 40,
-                Background = new SolidColorBrush(Colors.White),
-                BorderBrush = new SolidColorBrush(new Color(56, 140, 252)),
+                BorderBrush = (Brush)Application.Current.TryFindResource(SystemResources.AccentBrushKey),
                 BorderThickness = new Thickness(2),
                 HorizontalAlignment = HorizontalAlignment.Right,
                 Margin = new Thickness(0, 0, 10, 0),
                 Child = new Label()
                 {
                     FontSize = 24,
-                    Foreground = new SolidColorBrush(new Color(56, 140, 252)),
+                    Foreground = (Brush)Application.Current.TryFindResource(SystemResources.AccentBrushKey),
+                    IsHitTestVisible = false,
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Center,
                     Text = "i"
@@ -43,7 +43,7 @@ namespace SampleSuite
             var infoPanel = new StackPanel()
             {
                 Children = { infoButton, infoScroller },
-                Background = new SolidColorBrush(Colors.LightGray),
+                Background = new SolidColorBrush(new Color(64, 128, 128, 128)),
                 Orientation = Orientation.Vertical,
                 HorizontalAlignment = HorizontalAlignment.Stretch
             };
