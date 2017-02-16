@@ -270,4 +270,13 @@
   <data name="BrushesSampleDescription" xml:space="preserve">
     <value>This sample demonstrates the different brushes that can be used to style UI elements.  Some objects are limited in the type of brush that they can use.  This limitation is determined by the object's native implementation that is provided by each platform, which means that different results could be seen depending on the platform being run.  If a brush cannot be used, a default value provided by the system will be used in its place.</value>
   </data>
+  <data name="Shapes" xml:space="preserve">
+    <value>Shapes</value>
+  </data>
+  <data name="ShapesSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the various shape elements that can be used to programmatically draw graphics in an application.  Shapes can be stroked, filled, and dashed.  Path shapes in particular allow for multiple complex figures within a single element by defining groups of lines, arcs, and curves.</value>
+  </data>
+  <data name="ToggleDash" xml:space="preserve">
+    <value>Toggle Dash</value>
+  </data>
 </root>

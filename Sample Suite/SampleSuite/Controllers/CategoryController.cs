@@ -47,11 +47,25 @@ namespace SampleSuite
 
         private static Category[] Categories = new Category[]
         {
-            new Category("DataBinding", new Category(SingleBindingSampleView.Perspective), new Category(MultiBindingSampleView.Perspective)),
-            new Category("FileIO", new Category("ReadWrite")),
+            new Category("DataBinding",
+                new Category(SingleBindingSampleView.Perspective),
+                new Category(MultiBindingSampleView.Perspective)
+            ),
+            new Category("FileIO",
+                new Category("ReadWrite")
+            ),
             new Category("RootViews"),
-            new Category("Styling", new Category("Brushes"), new Category("Transform")),
-            new Category("UIControls", new Category("ListBox", new Category(ListBoxAddRemoveSampleView.Perspective), new Category(ListBoxSectioningSampleView.Perspective)))
+            new Category("Styling",
+                new Category("Brushes"),
+                new Category("Transform")
+            ),
+            new Category("UIControls",
+                new Category("ListBox",
+                    new Category(ListBoxAddRemoveSampleView.Perspective),
+                    new Category(ListBoxSectioningSampleView.Perspective)
+                ),
+                new Category("Shapes")
+            )
         };
     }
 }
