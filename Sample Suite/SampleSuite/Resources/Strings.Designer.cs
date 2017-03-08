@@ -305,7 +305,7 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This sample demonstrates different kinds of root views for the application window.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents..
+        ///   Looks up a localized string similar to This sample demonstrates different kinds of root views for the application window.  The SplitView with TabView combination places SplitViews inside of the tabs of a TabView.  For an alternative effect, you could try placing a TabView inside of a SplitView.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents..
         /// </summary>
         internal static string RootViewSampleDescription {
             get {
@@ -422,6 +422,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SplitView + Tabs.
+        /// </summary>
+        internal static string SplitViewWithTabs {
+            get {
+                return ResourceManager.GetString("SplitViewWithTabs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Systems and Sensors.
         /// </summary>
         internal static string SystemsAndSensors {
@@ -436,15 +445,6 @@ namespace SampleSuite.Resources {
         internal static string Tab {
             get {
                 return ResourceManager.GetString("Tab", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to TabbedSplitView.
-        /// </summary>
-        internal static string TabbedSplitView {
-            get {
-                return ResourceManager.GetString("TabbedSplitView", resourceCulture);
             }
         }
         

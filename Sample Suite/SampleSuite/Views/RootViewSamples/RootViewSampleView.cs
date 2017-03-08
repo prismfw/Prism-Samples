@@ -50,13 +50,18 @@ namespace SampleSuite
                     {
                         Window.Current.Content = new SplitView();
                     }
-                    else if (option == Strings.TabbedSplitView && Device.Current.FormFactor != FormFactor.Phone)
+                    else if (option == Strings.SplitViewWithTabs && Device.Current.FormFactor != FormFactor.Phone)
                     {
-                        InitializeTabView(new TabbedSplitView());
+                        var tabView = new TabView();
+                        InitializeTabView(tabView);
+                        tabView.TabItems[0].Content = new SplitView();
+                        tabView.TabItemSelected += OnSplitTabSelected;
                     }
                     else if (option == Strings.TabView)
                     {
-                        InitializeTabView(new TabView());
+                        var tabView = new TabView();
+                        InitializeTabView(tabView);
+                        tabView.TabItemSelected += OnTabSelected;
                     }
                     else
                     {
@@ -86,22 +91,39 @@ namespace SampleSuite
                 new TabItem() { Title = string.Format(Strings.Tab, 4) },
                 new TabItem() { Title = string.Format(Strings.Tab, 5) },
             });
-            
-            tabView.TabItemSelected += (o, e) =>
-            {
-                if (e.CurrentTabItem.Content == null && o.TabItems.IndexOf(e.CurrentTabItem) > 0)
-                {
-                    var color = new Color(new Random().Next());
-                    color.A = 255;
-                    e.CurrentTabItem.Content = new ContentView()
-                    {
-                        Background = new SolidColorBrush(color),
-                        Content = e.CurrentTabItem.Title,
-                    };
-                }
-            };
 
             Window.Current.Content = tabView;
+        }
+
+        private void OnSplitTabSelected(TabView tabView, TabItemSelectedEventArgs e)
+        {
+            if (e.CurrentTabItem.Content == null && tabView.TabItems.IndexOf(e.CurrentTabItem) > 0)
+            {
+                var color = new Color(new Random().Next());
+                color.A = 255;
+                e.CurrentTabItem.Content = new SplitView()
+                {
+                    MasterContent = new ContentView()
+                    {
+                        Background = new SolidColorBrush(color),
+                        Content = e.CurrentTabItem.Title
+                    }
+                };
+            }
+        }
+
+        private void OnTabSelected(TabView tabView, TabItemSelectedEventArgs e)
+        {
+            if (e.CurrentTabItem.Content == null && tabView.TabItems.IndexOf(e.CurrentTabItem) > 0)
+            {
+                var color = new Color(new Random().Next());
+                color.A = 255;
+                e.CurrentTabItem.Content = new ContentView()
+                {
+                    Background = new SolidColorBrush(color),
+                    Content = e.CurrentTabItem.Title,
+                };
+            }
         }
     }
 }

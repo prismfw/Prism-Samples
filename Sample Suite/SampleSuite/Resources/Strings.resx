@@ -217,7 +217,7 @@
     <value>Root Views</value>
   </data>
   <data name="RootViewSampleDescription" xml:space="preserve">
-    <value>This sample demonstrates different kinds of root views for the application window.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents.</value>
+    <value>This sample demonstrates different kinds of root views for the application window.  The SplitView with TabView combination places SplitViews inside of the tabs of a TabView.  For an alternative effect, you could try placing a TabView inside of a SplitView.  When you select one of the options below, the content of the application window will be set to the selected option and you will be brought back to the Table of Contents.</value>
   </data>
   <data name="SingleView" xml:space="preserve">
     <value>Single View</value>
@@ -228,8 +228,8 @@
   <data name="Tab" xml:space="preserve">
     <value>Tab {0}</value>
   </data>
-  <data name="TabbedSplitView" xml:space="preserve">
-    <value>TabbedSplitView</value>
+  <data name="SplitViewWithTabs" xml:space="preserve">
+    <value>SplitView + Tabs</value>
   </data>
   <data name="TabView" xml:space="preserve">
     <value>TabView</value>

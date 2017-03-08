@@ -17,7 +17,7 @@ namespace SampleSuite
                 {
                     Resources.Strings.SplitView,
                     Resources.Strings.TabView,
-                    Resources.Strings.TabbedSplitView,
+                    Resources.Strings.SplitViewWithTabs,
                     Resources.Strings.SingleView
                 }
             };
