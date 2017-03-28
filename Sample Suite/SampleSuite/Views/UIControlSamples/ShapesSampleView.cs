@@ -89,11 +89,7 @@ namespace SampleSuite
                 }
             });
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(new ScrollViewer() { Content = stackPanel });
-            }
+            SetContent(new ScrollViewer() { Content = stackPanel });
 
             Menu = new ActionMenu()
             {

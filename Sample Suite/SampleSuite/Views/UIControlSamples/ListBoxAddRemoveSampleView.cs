@@ -25,11 +25,7 @@ namespace SampleSuite
                 SelectionMode = SelectionMode.None
             };
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(listBox);
-            };
+            SetContent(listBox);
 
             Menu = new ActionMenu()
             {

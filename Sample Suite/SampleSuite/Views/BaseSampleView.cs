@@ -40,18 +40,25 @@ namespace SampleSuite
                 Visibility = Visibility.Collapsed
             };
             
-            var infoPanel = new StackPanel()
+            var infoPanel = new Border()
             {
-                Children = { infoButton, infoScroller },
-                Background = new SolidColorBrush(new Color(64, 128, 128, 128)),
-                Orientation = Orientation.Vertical,
-                HorizontalAlignment = HorizontalAlignment.Stretch
+                Background = new SolidColorBrush((Color)FindResource(SystemResources.BaseColorHighKey)),
+                BorderThickness = new Thickness(0),
+                HorizontalAlignment = HorizontalAlignment.Stretch,
+                Child = new StackPanel()
+                {
+                    Children = { infoButton, infoScroller },
+                    Background = new SolidColorBrush(new Color(64, 128, 128, 128)),
+                    Orientation = Orientation.Vertical,
+                    HorizontalAlignment = HorizontalAlignment.Stretch
+                }
             };
-            DockPanel.SetDock(infoPanel, Dock.Top);
             
-            Content = new DockPanel()
+            Content = new Grid()
             {
                 Children = { infoPanel },
+                ColumnDefinitions = { new ColumnDefinition(new GridLength(1, GridUnitType.Star)) },
+                RowDefinitions = { new RowDefinition(new GridLength(1, GridUnitType.Auto)), new RowDefinition(new GridLength(1, GridUnitType.Star)) },
                 HorizontalAlignment = HorizontalAlignment.Stretch,
                 VerticalAlignment = VerticalAlignment.Stretch
             };
@@ -63,6 +70,25 @@ namespace SampleSuite
             };
 
             return base.ConfigureUIAsync();
+        }
+        
+        public void SetContent(Element content)
+        {
+            content.Margin += new Thickness(0, 40, 0, 0);
+            Grid.SetRowSpan(content, 2);
+            
+            var panel = Content as Panel;
+            if (panel != null)
+            {
+                if (panel.Children.Count > 1)
+                {
+                    panel.Children[0] = content;
+                }
+                else
+                {
+                    panel.Children.Insert(0, content);
+                }
+            }
         }
     }
 }

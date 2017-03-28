@@ -26,11 +26,7 @@ namespace SampleSuite
                 SelectionMode = SelectionMode.Multiple
             };
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(listBox);
-            };
+            SetContent(listBox);
         }
     }
 }

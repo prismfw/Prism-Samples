@@ -45,11 +45,7 @@ namespace SampleSuite
             Grid.SetRow(skewPanel, 1);
             grid.Children.Add(skewPanel);
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(grid);
-            };
+            SetContent(grid);
         }
 
         private Element GetTransformExample(Transform transform, string title)

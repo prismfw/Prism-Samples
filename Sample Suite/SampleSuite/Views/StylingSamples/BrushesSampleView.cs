@@ -42,11 +42,7 @@ namespace SampleSuite
             label.Text = nameof(ImageBrush);
             label.Foreground = new ImageBrush(new Uri(Directory.AssetDirectory + "textBrush.png", UriKind.RelativeOrAbsolute), Stretch.UniformToFill);
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(grid);
-            };
+            SetContent(grid);
         }
 
         private Label GetLabel(Grid grid)

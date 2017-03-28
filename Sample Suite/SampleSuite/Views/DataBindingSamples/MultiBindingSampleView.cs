@@ -59,27 +59,23 @@ namespace SampleSuite
                 IsSnapToStepEnabled = true
             };
 
-            var panel = Content as Panel;
-            if (panel != null)
+            SetContent(new StackPanel()
             {
-                panel.Children.Add(new StackPanel()
+                HorizontalAlignment = HorizontalAlignment.Stretch,
+                Margin = new Thickness(2),
+                Orientation = Orientation.Vertical,
+                Children =
                 {
-                    HorizontalAlignment = HorizontalAlignment.Stretch,
-                    Margin = new Thickness(2),
-                    Orientation = Orientation.Vertical,
-                    Children =
-                    {
-                        colorDisplay,
-                        colorLabel,
-                        new Label() { Text = Strings.Red },
-                        redSlider,
-                        new Label() { Text = Strings.Green },
-                        greenSlider,
-                        new Label() { Text = Strings.Blue },
-                        blueSlider
-                    }
-                });
-            };
+                    colorDisplay,
+                    colorLabel,
+                    new Label() { Text = Strings.Red },
+                    redSlider,
+                    new Label() { Text = Strings.Green },
+                    greenSlider,
+                    new Label() { Text = Strings.Blue },
+                    blueSlider
+                }
+            });
 
             colorDisplay.SetBinding(Border.BackgroundProperty, new MultiBinding()
             {

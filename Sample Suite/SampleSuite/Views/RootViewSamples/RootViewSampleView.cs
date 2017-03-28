@@ -74,11 +74,7 @@ namespace SampleSuite
                 grid.Children.Add(border);
             }
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(grid);
-            };
+            SetContent(grid);
         }
 
         private void InitializeTabView(TabView tabView)

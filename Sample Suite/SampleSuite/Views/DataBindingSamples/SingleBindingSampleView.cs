@@ -39,24 +39,20 @@ namespace SampleSuite
                 Margin = new Thickness(0, 2)
             };
 
-            var panel = Content as Panel;
-            if (panel != null)
+            SetContent(new StackPanel()
             {
-                panel.Children.Add(new StackPanel()
+                HorizontalAlignment = HorizontalAlignment.Stretch,
+                Margin = new Thickness(2),
+                Orientation = Orientation.Vertical,
+                Children =
                 {
-                    HorizontalAlignment = HorizontalAlignment.Stretch,
-                    Margin = new Thickness(2),
-                    Orientation = Orientation.Vertical,
-                    Children =
-                    {
-                        modeButton,
-                        new Label() { Text = Strings.SourceObject },
-                        sourceTextBox,
-                        new Label() { Text = Strings.TargetObject },
-                        targetTextBox
-                    }
-                });
-            };
+                    modeButton,
+                    new Label() { Text = Strings.SourceObject },
+                    sourceTextBox,
+                    new Label() { Text = Strings.TargetObject },
+                    targetTextBox
+                }
+            });
 
             var binding = new Binding()
             {

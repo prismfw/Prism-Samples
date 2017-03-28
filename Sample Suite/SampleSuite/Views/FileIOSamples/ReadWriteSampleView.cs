@@ -22,11 +22,7 @@ namespace SampleSuite
                 VerticalAlignment = VerticalAlignment.Stretch
             };
 
-            var panel = Content as Panel;
-            if (panel != null)
-            {
-                panel.Children.Add(textArea);
-            };
+            SetContent(textArea);
 
             var readButton = new MenuButton()
             {
