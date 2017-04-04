@@ -11,10 +11,12 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [NavigationView]
+    [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class ShapesSampleView : BaseSampleView<ShapesSampleModel>
+    public class ShapesSampleView : BaseSampleView<UIControlsSampleModel>
     {
+        public const string Perspective = "Shapes";
+
         private bool isDashEnabled;
 
         public override async Task ConfigureUIAsync()

@@ -107,6 +107,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Clear.
+        /// </summary>
+        internal static string Clear {
+            get {
+                return ResourceManager.GetString("Clear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Data Binding.
         /// </summary>
         internal static string DataBinding {
@@ -166,6 +175,15 @@ namespace SampleSuite.Resources {
         internal static string IndexOutOfRange {
             get {
                 return ResourceManager.GetString("IndexOutOfRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demostrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus..
+        /// </summary>
+        internal static string InkCanvasSampleDescription {
+            get {
+                return ResourceManager.GetString("InkCanvasSampleDescription", resourceCulture);
             }
         }
         
@@ -256,6 +274,15 @@ namespace SampleSuite.Resources {
         internal static string OK {
             get {
                 return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pen Size and Shape.
+        /// </summary>
+        internal static string PenSizeAndShape {
+            get {
+                return ResourceManager.GetString("PenSizeAndShape", resourceCulture);
             }
         }
         

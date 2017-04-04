@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleSuite
 {
-    public class ShapesSampleModel : BaseSampleModel
+    public class UIControlsSampleModel : BaseSampleModel
     {
     }
 }

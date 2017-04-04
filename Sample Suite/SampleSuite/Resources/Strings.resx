@@ -279,4 +279,13 @@
   <data name="ToggleDash" xml:space="preserve">
     <value>Toggle Dash</value>
   </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="InkCanvasSampleDescription" xml:space="preserve">
+    <value>This sample demostrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus.</value>
+  </data>
+  <data name="PenSizeAndShape" xml:space="preserve">
+    <value>Pen Size and Shape</value>
+  </data>
 </root>

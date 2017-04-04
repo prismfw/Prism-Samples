@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleSuite
 {
-    public class ListBoxSampleModel : BaseSampleModel
+    public class ListBoxSampleModel : UIControlsSampleModel
     {
         public object[] Items { get; set; }
     }

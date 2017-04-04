@@ -39,6 +39,7 @@
     <Compile Include="Controllers\DataBindingSamples\DataBindingSampleController.cs" />
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
     <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
+    <Compile Include="Controllers\UIControlSamples\InkCanvasSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ShapesSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ListBoxSampleController.cs" />
     <Compile Include="Models\BaseSampleModel.cs" />
@@ -46,7 +47,7 @@
     <Compile Include="Models\DataBindingSamples\DataBindingSampleModel.cs" />
     <Compile Include="Models\FileIOSamples\ReadWriteSampleModel.cs" />
     <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
-    <Compile Include="Models\UIControlSamples\ShapesSampleModel.cs" />
+    <Compile Include="Models\UIControlSamples\UIControlsSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Strings.Designer.cs">
@@ -64,6 +65,7 @@
     <Compile Include="Views\StylingSamples\BrushesSampleView.cs" />
     <Compile Include="Views\StylingSamples\TransformSampleView.cs" />
     <Compile Include="Views\TableOfContentsView.cs" />
+    <Compile Include="Views\UIControlSamples\InkCanvasSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ShapesSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxSectioningSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxAddRemoveSampleView.cs" />

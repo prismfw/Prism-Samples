@@ -60,11 +60,12 @@ namespace SampleSuite
                 new Category("Transform")
             ),
             new Category("UIControls",
+                new Category(InkCanvasSampleView.Perspective),
                 new Category("ListBox",
                     new Category(ListBoxAddRemoveSampleView.Perspective),
                     new Category(ListBoxSectioningSampleView.Perspective)
                 ),
-                new Category("Shapes")
+                new Category(ShapesSampleView.Perspective)
             )
         };
     }
