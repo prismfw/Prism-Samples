@@ -283,9 +283,24 @@
     <value>Clear</value>
   </data>
   <data name="InkCanvasSampleDescription" xml:space="preserve">
-    <value>This sample demostrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus.</value>
+    <value>This sample demonstrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus.</value>
   </data>
   <data name="PenSizeAndShape" xml:space="preserve">
     <value>Pen Size and Shape</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="WebBrowserSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the WebBrowser control, which is able to navigate to web addresses and render HTML content within the application.  The URI must be exact, and it must include the protocol (http, https, ftp, etc.).</value>
   </data>
 </root>

@@ -65,7 +65,8 @@ namespace SampleSuite
                     new Category(ListBoxAddRemoveSampleView.Perspective),
                     new Category(ListBoxSectioningSampleView.Perspective)
                 ),
-                new Category(ShapesSampleView.Perspective)
+                new Category(ShapesSampleView.Perspective),
+                new Category(WebBrowserSampleView.Perspective)
             )
         };
     }

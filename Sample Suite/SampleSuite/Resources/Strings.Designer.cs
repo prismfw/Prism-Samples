@@ -71,6 +71,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Back.
+        /// </summary>
+        internal static string Back {
+            get {
+                return ResourceManager.GetString("Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Blue:.
         /// </summary>
         internal static string Blue {
@@ -161,6 +170,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Forward.
+        /// </summary>
+        internal static string Forward {
+            get {
+                return ResourceManager.GetString("Forward", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go.
+        /// </summary>
+        internal static string Go {
+            get {
+                return ResourceManager.GetString("Go", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Green:.
         /// </summary>
         internal static string Green {
@@ -179,7 +206,7 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This sample demostrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus..
+        ///   Looks up a localized string similar to This sample demonstrates the InkCanvas control, which allows users to draw ink strokes with an input device such as a mouse or a stylus..
         /// </summary>
         internal static string InkCanvasSampleDescription {
             get {
@@ -310,6 +337,15 @@ namespace SampleSuite.Resources {
         internal static string Red {
             get {
                 return ResourceManager.GetString("Red", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh.
+        /// </summary>
+        internal static string Refresh {
+            get {
+                return ResourceManager.GetString("Refresh", resourceCulture);
             }
         }
         
@@ -571,6 +607,15 @@ namespace SampleSuite.Resources {
         internal static string UnknownCategoryError {
             get {
                 return ResourceManager.GetString("UnknownCategoryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the WebBrowser control, which is able to navigate to web addresses and render HTML content within the application.  The URI must be exact, and it must include the protocol (http, https, ftp, etc.)..
+        /// </summary>
+        internal static string WebBrowserSampleDescription {
+            get {
+                return ResourceManager.GetString("WebBrowserSampleDescription", resourceCulture);
             }
         }
     }
