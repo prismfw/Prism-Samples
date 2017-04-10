@@ -38,6 +38,7 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\DataBindingSamples\DataBindingSampleController.cs" />
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
+    <Compile Include="Controllers\InputSamples\InputSampleController.cs" />
     <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\WebBrowserSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\InkCanvasSampleController.cs" />
@@ -47,6 +48,7 @@
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\DataBindingSamples\DataBindingSampleModel.cs" />
     <Compile Include="Models\FileIOSamples\ReadWriteSampleModel.cs" />
+    <Compile Include="Models\InputSamples\InputSampleModel.cs" />
     <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\UIControlsSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
@@ -62,6 +64,7 @@
     <Compile Include="Views\DataBindingSamples\SingleBindingSampleView.cs" />
     <Compile Include="Views\ErrorView.cs" />
     <Compile Include="Views\FileIOSamples\ReadWriteSampleView.cs" />
+    <Compile Include="Views\InputSamples\PointerEventsSampleView.cs" />
     <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />
     <Compile Include="Views\StylingSamples\BrushesSampleView.cs" />
     <Compile Include="Views\StylingSamples\TransformSampleView.cs" />

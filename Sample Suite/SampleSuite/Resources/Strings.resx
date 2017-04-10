@@ -303,4 +303,25 @@
   <data name="WebBrowserSampleDescription" xml:space="preserve">
     <value>This sample demonstrates the WebBrowser control, which is able to navigate to web addresses and render HTML content within the application.  The URI must be exact, and it must include the protocol (http, https, ftp, etc.).</value>
   </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="InputType" xml:space="preserve">
+    <value>Input Type</value>
+  </data>
+  <data name="PointerEvents" xml:space="preserve">
+    <value>Pointer Events</value>
+  </data>
+  <data name="PointerEventsSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the ability to capture events from pointer devices such as a mouse, a stylus, or a finger on a touch screen.  When a UI element detects an event from one of these devices, it sends information about the event to the application.  This information includes the type of the pointer device, the location of the pointer relative to the element, the pressure being applied by the pointer, and a time stamp provided by the system.</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Timestamp</value>
+  </data>
 </root>

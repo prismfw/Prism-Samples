@@ -54,6 +54,8 @@ namespace SampleSuite
             new Category("FileIO",
                 new Category("ReadWrite")
             ),
+            new Category("Input",
+                new Category(PointerEventsSampleView.Perspective)),
             new Category("RootViews"),
             new Category("Styling",
                 new Category("Brushes"),

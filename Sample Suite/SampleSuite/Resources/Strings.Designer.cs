@@ -62,6 +62,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Action.
+        /// </summary>
+        internal static string Action {
+            get {
+                return ResourceManager.GetString("Action", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add/Remove Items.
         /// </summary>
         internal static string AddRemoveItems {
@@ -215,6 +224,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Input Type.
+        /// </summary>
+        internal static string InputType {
+            get {
+                return ResourceManager.GetString("InputType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Index value is invalid..
         /// </summary>
         internal static string InvalidIndexValue {
@@ -310,6 +328,42 @@ namespace SampleSuite.Resources {
         internal static string PenSizeAndShape {
             get {
                 return ResourceManager.GetString("PenSizeAndShape", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pointer Events.
+        /// </summary>
+        internal static string PointerEvents {
+            get {
+                return ResourceManager.GetString("PointerEvents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the ability to capture events from pointer devices such as a mouse, a stylus, or a finger on a touch screen.  When a UI element detects an event from one of these devices, it sends information about the event to the application.  This information includes the type of the pointer device, the location of the pointer relative to the element, the pressure being applied by the pointer, and a time stamp provided by the system..
+        /// </summary>
+        internal static string PointerEventsSampleDescription {
+            get {
+                return ResourceManager.GetString("PointerEventsSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Position.
+        /// </summary>
+        internal static string Position {
+            get {
+                return ResourceManager.GetString("Position", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pressure.
+        /// </summary>
+        internal static string Pressure {
+            get {
+                return ResourceManager.GetString("Pressure", resourceCulture);
             }
         }
         
@@ -553,6 +607,15 @@ namespace SampleSuite.Resources {
         internal static string TargetObject {
             get {
                 return ResourceManager.GetString("TargetObject", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Timestamp.
+        /// </summary>
+        internal static string Timestamp {
+            get {
+                return ResourceManager.GetString("Timestamp", resourceCulture);
             }
         }
         
