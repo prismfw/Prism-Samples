@@ -39,10 +39,9 @@ namespace SampleSuite
                 MaxHeight = 150,
                 Visibility = Visibility.Collapsed
             };
-            
+
             var infoPanel = new Border()
             {
-                Background = new SolidColorBrush((Color)FindResource(SystemResources.BaseColorHighKey)),
                 BorderThickness = new Thickness(0),
                 HorizontalAlignment = HorizontalAlignment.Stretch,
                 Child = new StackPanel()
@@ -53,7 +52,8 @@ namespace SampleSuite
                     HorizontalAlignment = HorizontalAlignment.Stretch
                 }
             };
-            
+            infoPanel.SetResourceReference(Border.BackgroundProperty, SystemResources.BaseHighBrushKey);
+
             Content = new Grid()
             {
                 Children = { infoPanel },
@@ -66,17 +66,16 @@ namespace SampleSuite
             infoButton.PointerPressed += (o, e) =>
             {
                 infoScroller.Visibility = infoScroller.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
-                infoPanel.InvalidateMeasure();
             };
 
             return base.ConfigureUIAsync();
         }
-        
+
         public void SetContent(Element content)
         {
             content.Margin += new Thickness(0, 40, 0, 0);
             Grid.SetRowSpan(content, 2);
-            
+
             var panel = Content as Panel;
             if (panel != null)
             {

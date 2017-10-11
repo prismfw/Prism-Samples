@@ -49,8 +49,11 @@ namespace SampleSuite
         {
             var retval = new Label()
             {
-                FontSize = 30,
+                FontSize = 60,
                 FontStyle = FontStyle.Bold,
+                IsAutoScalingEnabled = true,
+                Lines = 1,
+                MinScaledFontSize = 30,
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center,
             };

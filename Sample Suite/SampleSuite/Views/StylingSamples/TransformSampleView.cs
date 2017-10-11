@@ -65,7 +65,7 @@ namespace SampleSuite
                     new Border()
                     {
                         Background = new SolidColorBrush(new Color(64, 128, 128, 128)),
-                        Margin = new Thickness(12),
+                        Margin = new Thickness(12, 3, 12, 12),
                         Height = 96,
                         Width = 96,
                         Child = new Label()

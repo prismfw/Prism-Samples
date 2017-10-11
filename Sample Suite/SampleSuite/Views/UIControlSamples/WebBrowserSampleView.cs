@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Prism;
 using Prism.Data;
+using Prism.Input;
 using Prism.Systems;
 using Prism.UI;
 using Prism.UI.Controls;
@@ -24,10 +25,11 @@ namespace SampleSuite
             var textBox = new TextBox()
             {
                 ActionKeyType = ActionKeyType.Go,
-                BorderBrush = new SolidColorBrush((Color)FindResource(SystemResources.BaseColorLowKey)),
                 BorderWidth = 1,
+                InputType = InputType.Url,
                 VerticalAlignment = VerticalAlignment.Stretch
             };
+            textBox.SetResourceReference(Control.BorderBrushProperty, SystemResources.BaseLowBrushKey);
             textBox.ActionKeyPressed += (o, e) => GoTo(textBox.Text);
 
             var goButton = new Button()
