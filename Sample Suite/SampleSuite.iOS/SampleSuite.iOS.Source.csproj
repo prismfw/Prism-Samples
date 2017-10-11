@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Assets\textBrush.png" />
+    <BundleResource Include="Assets\image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

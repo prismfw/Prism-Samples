@@ -58,10 +58,12 @@ namespace SampleSuite
                 new Category(PointerEventsSampleView.Perspective)),
             new Category("RootViews"),
             new Category("Styling",
-                new Category("Brushes"),
-                new Category("Transform")
+                new Category(BrushesSampleView.Perspective),
+                new Category(TransformSampleView.Perspective)
             ),
             new Category("UIControls",
+                new Category(FlyoutSampleView.Perspective),
+                new Category(ImageSampleView.Perspective),
                 new Category(InkCanvasSampleView.Perspective),
                 new Category("ListBox",
                     new Category(ListBoxAddRemoveSampleView.Perspective),

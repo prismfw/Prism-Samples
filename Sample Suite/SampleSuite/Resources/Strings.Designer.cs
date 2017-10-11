@@ -179,6 +179,33 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Flyout.
+        /// </summary>
+        internal static string Flyout {
+            get {
+                return ResourceManager.GetString("Flyout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This is a content flyout.  It renders UI elements and is dismissed when the user taps outside of its bounds..
+        /// </summary>
+        internal static string FlyoutContent {
+            get {
+                return ResourceManager.GetString("FlyoutContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the Flyout object.  Flyouts appear over regular application content much like a Popup.  Unlike a Popup, however, Flyouts are anchored to other UI elements and will always be dismissed when the user taps outside of their bounds.  Flyouts come in two flavors: a content flyout and a menu flyout.  Content flyouts show a UI element in the same manner that a Popup does; menu flyouts present a list of selectable options and dismiss themselves when an option is chosen..
+        /// </summary>
+        internal static string FlyoutSampleDescription {
+            get {
+                return ResourceManager.GetString("FlyoutSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Forward.
         /// </summary>
         internal static string Forward {
@@ -202,6 +229,24 @@ namespace SampleSuite.Resources {
         internal static string Green {
             get {
                 return ResourceManager.GetString("Green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image.
+        /// </summary>
+        internal static string Image {
+            get {
+                return ResourceManager.GetString("Image", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the Image element, which renders image data taken from a local or remote file.  Images have several stretching options that affect the way they fill their parent space.  These stretching options can be seen below..
+        /// </summary>
+        internal static string ImageSampleDescription {
+            get {
+                return ResourceManager.GetString("ImageSampleDescription", resourceCulture);
             }
         }
         
@@ -278,6 +323,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Menu Flyout.
+        /// </summary>
+        internal static string MenuFlyout {
+            get {
+                return ResourceManager.GetString("MenuFlyout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Mode: {0}.
         /// </summary>
         internal static string Mode {
@@ -319,6 +373,15 @@ namespace SampleSuite.Resources {
         internal static string OK {
             get {
                 return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Option.
+        /// </summary>
+        internal static string Option {
+            get {
+                return ResourceManager.GetString("Option", resourceCulture);
             }
         }
         

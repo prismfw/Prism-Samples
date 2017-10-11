@@ -324,4 +324,25 @@
   <data name="Timestamp" xml:space="preserve">
     <value>Timestamp</value>
   </data>
+  <data name="Flyout" xml:space="preserve">
+    <value>Flyout</value>
+  </data>
+  <data name="FlyoutContent" xml:space="preserve">
+    <value>This is a content flyout.  It renders UI elements and is dismissed when the user taps outside of its bounds.</value>
+  </data>
+  <data name="FlyoutSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the Flyout object.  Flyouts appear over regular application content much like a Popup.  Unlike a Popup, however, Flyouts are anchored to other UI elements and will always be dismissed when the user taps outside of their bounds.  Flyouts come in two flavors: a content flyout and a menu flyout.  Content flyouts show a UI element in the same manner that a Popup does; menu flyouts present a list of selectable options and dismiss themselves when an option is chosen.</value>
+  </data>
+  <data name="MenuFlyout" xml:space="preserve">
+    <value>Menu Flyout</value>
+  </data>
+  <data name="Option" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ImageSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the Image element, which renders image data taken from a local or remote file.  Images have several stretching options that affect the way they fill their parent space.  These stretching options can be seen below.</value>
+  </data>
 </root>
