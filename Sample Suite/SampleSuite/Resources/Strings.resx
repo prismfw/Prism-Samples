@@ -345,4 +345,10 @@
   <data name="ImageSampleDescription" xml:space="preserve">
     <value>This sample demonstrates the Image element, which renders image data taken from a local or remote file.  Images have several stretching options that affect the way they fill their parent space.  These stretching options can be seen below.</value>
   </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="LabelSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the Label control, which renders a string of read-only text.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below.</value>
+  </data>
 </root>

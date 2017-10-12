@@ -65,6 +65,7 @@ namespace SampleSuite
                 new Category(FlyoutSampleView.Perspective),
                 new Category(ImageSampleView.Perspective),
                 new Category(InkCanvasSampleView.Perspective),
+                new Category(LabelSampleView.Perspective),
                 new Category("ListBox",
                     new Category(ListBoxAddRemoveSampleView.Perspective),
                     new Category(ListBoxSectioningSampleView.Perspective)

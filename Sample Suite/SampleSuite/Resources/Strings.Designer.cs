@@ -305,6 +305,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Label.
+        /// </summary>
+        internal static string Label {
+            get {
+                return ResourceManager.GetString("Label", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the Label control, which renders a string of read-only text.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below..
+        /// </summary>
+        internal static string LabelSampleDescription {
+            get {
+                return ResourceManager.GetString("LabelSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This sample demonstrates dynamic insertion and removal of items from the ListBox control.  Use the buttons in the menu to manipulate the list..
         /// </summary>
         internal static string ListBoxAddRemoveSampleDescription {
