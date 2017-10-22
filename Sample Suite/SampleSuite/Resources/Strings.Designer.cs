@@ -143,6 +143,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Double Tapped!.
+        /// </summary>
+        internal static string DoubleTapped {
+            get {
+                return ResourceManager.GetString("DoubleTapped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter the index at which to insert the new item.  Valid values are 0-{0}..
         /// </summary>
         internal static string EnterIndexValue {
@@ -229,6 +238,51 @@ namespace SampleSuite.Resources {
         internal static string Green {
             get {
                 return ResourceManager.GetString("Green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Holding Canceled!.
+        /// </summary>
+        internal static string HoldingCanceled {
+            get {
+                return ResourceManager.GetString("HoldingCanceled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Holding Completed!.
+        /// </summary>
+        internal static string HoldingCompleted {
+            get {
+                return ResourceManager.GetString("HoldingCompleted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Holding Gesture.
+        /// </summary>
+        internal static string HoldingGesture {
+            get {
+                return ResourceManager.GetString("HoldingGesture", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the holding gesture.  Hold down a pointer on the shape below, and the gesture will trigger after a short time delay.  Releasing the pointer will complete the gesture.  If you move the pointer too much, the gesture will be canceled..
+        /// </summary>
+        internal static string HoldingGestureSampleDescription {
+            get {
+                return ResourceManager.GetString("HoldingGestureSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Holding Started!.
+        /// </summary>
+        internal static string HoldingStarted {
+            get {
+                return ResourceManager.GetString("HoldingStarted", resourceCulture);
             }
         }
         
@@ -494,6 +548,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Right Tapped!.
+        /// </summary>
+        internal static string RightTapped {
+            get {
+                return ResourceManager.GetString("RightTapped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Root Views.
         /// </summary>
         internal static string RootViews {
@@ -679,6 +742,33 @@ namespace SampleSuite.Resources {
         internal static string TabView {
             get {
                 return ResourceManager.GetString("TabView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tap Gestures.
+        /// </summary>
+        internal static string TapGestures {
+            get {
+                return ResourceManager.GetString("TapGestures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the various types of supported tap gestures.  There are three types of tap gestures: single taps, double taps, and right taps (long presses for touch input).  Use the square below to perform the gestures..
+        /// </summary>
+        internal static string TapGesturesSampleDescription {
+            get {
+                return ResourceManager.GetString("TapGesturesSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tapped!.
+        /// </summary>
+        internal static string Tapped {
+            get {
+                return ResourceManager.GetString("Tapped", resourceCulture);
             }
         }
         

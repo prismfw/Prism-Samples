@@ -351,4 +351,34 @@
   <data name="LabelSampleDescription" xml:space="preserve">
     <value>This sample demonstrates the Label control, which renders a string of read-only text.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below.</value>
   </data>
+  <data name="DoubleTapped" xml:space="preserve">
+    <value>Double Tapped!</value>
+  </data>
+  <data name="HoldingCanceled" xml:space="preserve">
+    <value>Holding Canceled!</value>
+  </data>
+  <data name="HoldingCompleted" xml:space="preserve">
+    <value>Holding Completed!</value>
+  </data>
+  <data name="HoldingGesture" xml:space="preserve">
+    <value>Holding Gesture</value>
+  </data>
+  <data name="HoldingGestureSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the holding gesture.  Hold down a pointer on the shape below, and the gesture will trigger after a short time delay.  Releasing the pointer will complete the gesture.  If you move the pointer too much, the gesture will be canceled.</value>
+  </data>
+  <data name="HoldingStarted" xml:space="preserve">
+    <value>Holding Started!</value>
+  </data>
+  <data name="RightTapped" xml:space="preserve">
+    <value>Right Tapped!</value>
+  </data>
+  <data name="TapGestures" xml:space="preserve">
+    <value>Tap Gestures</value>
+  </data>
+  <data name="TapGesturesSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the various types of supported tap gestures.  There are three types of tap gestures: single taps, double taps, and right taps (long presses for touch input).  Use the square below to perform the gestures.</value>
+  </data>
+  <data name="Tapped" xml:space="preserve">
+    <value>Tapped!</value>
+  </data>
 </root>

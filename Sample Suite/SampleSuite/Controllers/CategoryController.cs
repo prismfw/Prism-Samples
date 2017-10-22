@@ -55,7 +55,9 @@ namespace SampleSuite
                 new Category("ReadWrite")
             ),
             new Category("Input",
-                new Category(PointerEventsSampleView.Perspective)),
+                new Category(PointerEventsSampleView.Perspective),
+                new Category(HoldingGestureSampleView.Perspective),
+                new Category(TapGesturesSampleView.Perspective)),
             new Category("RootViews"),
             new Category("Styling",
                 new Category(BrushesSampleView.Perspective),
