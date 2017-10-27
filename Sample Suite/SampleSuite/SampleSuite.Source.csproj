@@ -40,6 +40,7 @@
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
     <Compile Include="Controllers\InputSamples\InputSampleController.cs" />
     <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
+    <Compile Include="Controllers\UIControlSamples\SelectListSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\LabelSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ImageSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\FlyoutSampleController.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\LabelSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ImageSampleModel.cs" />
+    <Compile Include="Models\UIControlSamples\SelectListSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\UIControlsSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="Views\UIControlSamples\FlyoutSampleView.cs" />
     <Compile Include="Views\UIControlSamples\LabelSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ImageSampleView.cs" />
+    <Compile Include="Views\UIControlSamples\SelectListSampleView.cs" />
     <Compile Include="Views\UIControlSamples\WebBrowserSampleView.cs" />
     <Compile Include="Views\UIControlSamples\InkCanvasSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ShapesSampleView.cs" />

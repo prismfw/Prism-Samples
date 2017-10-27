@@ -89,7 +89,16 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blue:.
+        ///   Looks up a localized string similar to Black.
+        /// </summary>
+        internal static string Black {
+            get {
+                return ResourceManager.GetString("Black", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Blue.
         /// </summary>
         internal static string Blue {
             get {
@@ -233,7 +242,7 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Green:.
+        ///   Looks up a localized string similar to Green.
         /// </summary>
         internal static string Green {
             get {
@@ -458,6 +467,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Orange.
+        /// </summary>
+        internal static string Orange {
+            get {
+                return ResourceManager.GetString("Orange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pen Size and Shape.
         /// </summary>
         internal static string PenSizeAndShape {
@@ -503,6 +521,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Purple.
+        /// </summary>
+        internal static string Purple {
+            get {
+                return ResourceManager.GetString("Purple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Read/Write.
         /// </summary>
         internal static string ReadWrite {
@@ -521,7 +548,7 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Red:.
+        ///   Looks up a localized string similar to Red.
         /// </summary>
         internal static string Red {
             get {
@@ -607,6 +634,15 @@ namespace SampleSuite.Resources {
         internal static string Sectioning {
             get {
                 return ResourceManager.GetString("Sectioning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the SelectList control, which allows the user to select a single option from a list of choices.  SelectLists can make use of adapters to modify the way that their items are presented.  In this sample, you can see two SelectLists, one with an adapter and one without..
+        /// </summary>
+        internal static string SelectListSampleDescription {
+            get {
+                return ResourceManager.GetString("SelectListSampleDescription", resourceCulture);
             }
         }
         
@@ -850,6 +886,42 @@ namespace SampleSuite.Resources {
         internal static string WebBrowserSampleDescription {
             get {
                 return ResourceManager.GetString("WebBrowserSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to White.
+        /// </summary>
+        internal static string White {
+            get {
+                return ResourceManager.GetString("White", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to With Adapter:.
+        /// </summary>
+        internal static string WithAdapter {
+            get {
+                return ResourceManager.GetString("WithAdapter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Without Adapter:.
+        /// </summary>
+        internal static string WithoutAdapter {
+            get {
+                return ResourceManager.GetString("WithoutAdapter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Yellow.
+        /// </summary>
+        internal static string Yellow {
+            get {
+                return ResourceManager.GetString("Yellow", resourceCulture);
             }
         }
     }
