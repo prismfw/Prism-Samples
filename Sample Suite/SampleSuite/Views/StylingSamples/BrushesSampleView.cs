@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Prism;
-using Prism.IO;
 using Prism.UI;
 using Prism.UI.Controls;
 using Prism.UI.Media;
@@ -40,7 +39,7 @@ namespace SampleSuite
 
             label = GetLabel(grid);
             label.Text = nameof(ImageBrush);
-            label.Foreground = new ImageBrush(new Uri(Directory.AssetDirectory + "textBrush.png", UriKind.RelativeOrAbsolute), Stretch.UniformToFill);
+            label.Foreground = new ImageBrush(new Uri("textBrush.png", UriKind.Relative), Stretch.UniformToFill);
 
             SetContent(grid);
         }

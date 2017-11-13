@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Prism;
-using Prism.IO;
-using Prism.UI.Controls;
 
 namespace SampleSuite
 {
@@ -14,7 +12,7 @@ namespace SampleSuite
             Model = new ImageSampleModel()
             {
                 Description = Resources.Strings.ImageSampleDescription,
-                ImageUri = new Uri(Directory.AssetDirectory + "image.png", UriKind.RelativeOrAbsolute),
+                ImageUri = new Uri("image.png", UriKind.Relative),
                 Title = Resources.Strings.Image
             };
 

@@ -15,7 +15,7 @@ namespace SampleSuite
             {
                 Title = Resources.Strings.ResourceManager.GetString(context.Parameters.GetValueOrDefault<string>("sample")),
                 Description = Resources.Strings.ReadWriteSampleDescription,
-                FileName = Directory.DataDirectory + "readwritesample.txt"
+                FileName = Directory.DataDirectoryPath + "readwritesample.txt"
             };
 
             try
