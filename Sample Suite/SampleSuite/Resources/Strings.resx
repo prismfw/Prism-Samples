@@ -405,4 +405,10 @@
   <data name="Yellow" xml:space="preserve">
     <value>Yellow</value>
   </data>
+  <data name="MultiTouch" xml:space="preserve">
+    <value>MultiTouch</value>
+  </data>
+  <data name="MultiTouchSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the use of multiple simultaneous touch inputs.  To experience this sample to the fullest, make sure that you're using a device with a touch screen.  Place one or more fingers in the area below.  A circle will appear under each contact point.  Move each finger to drag its corresponding circle, or lift the finger to remove the circle.</value>
+  </data>
 </root>

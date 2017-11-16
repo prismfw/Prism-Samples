@@ -72,6 +72,7 @@
     <Compile Include="Views\ErrorView.cs" />
     <Compile Include="Views\FileIOSamples\ReadWriteSampleView.cs" />
     <Compile Include="Views\InputSamples\HoldingGestureSampleView.cs" />
+    <Compile Include="Views\InputSamples\MultiTouchSampleView.cs" />
     <Compile Include="Views\InputSamples\TapGesturesSampleView.cs" />
     <Compile Include="Views\InputSamples\PointerEventsSampleView.cs" />
     <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />

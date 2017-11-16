@@ -440,6 +440,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to MultiTouch.
+        /// </summary>
+        internal static string MultiTouch {
+            get {
+                return ResourceManager.GetString("MultiTouch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the use of multiple simultaneous touch inputs.  To experience this sample to the fullest, make sure that you&apos;re using a device with a touch screen.  Place one or more fingers in the area below.  A circle will appear under each contact point.  Move each finger to drag its corresponding circle, or lift the finger to remove the circle..
+        /// </summary>
+        internal static string MultiTouchSampleDescription {
+            get {
+                return ResourceManager.GetString("MultiTouchSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
         internal static string Normal {
