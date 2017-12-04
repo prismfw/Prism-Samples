@@ -11,7 +11,7 @@ using SampleSuite.Resources;
 namespace SampleSuite
 {
     [NavigationView(Perspective)]
-    public class MultiBindingSampleView : BaseSampleView<DataBindingSampleModel>
+    public class MultiBindingSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "MultiBinding";
 

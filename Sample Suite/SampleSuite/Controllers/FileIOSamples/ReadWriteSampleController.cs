@@ -28,7 +28,7 @@ namespace SampleSuite
                 Model.FileExists = false;
             }
 
-            return string.Empty;
+            return ReadWriteSampleView.Perspective;
         }
     }
 }

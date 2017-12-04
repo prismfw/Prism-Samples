@@ -13,7 +13,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class FlyoutSampleView : BaseSampleView<UIControlsSampleModel>
+    public class FlyoutSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "Flyout";
 

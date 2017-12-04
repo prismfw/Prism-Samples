@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleSuite
 {
-    public class SelectListSampleModel : UIControlsSampleModel
+    public class SelectListSampleModel : BaseSampleModel
     {
         public SelectListSampleModelItem[] Items { get; set; }
     }

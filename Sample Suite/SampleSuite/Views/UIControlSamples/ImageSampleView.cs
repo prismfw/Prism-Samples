@@ -65,7 +65,7 @@ namespace SampleSuite
                 {
                     new Label()
                     {
-                        HorizontalAlignment = HorizontalAlignment.Stretch,
+                        HorizontalAlignment = HorizontalAlignment.Center,
                         Margin = new Thickness(3),
                         Text = stretch.ToString(),
                         TextAlignment = TextAlignment.Center,

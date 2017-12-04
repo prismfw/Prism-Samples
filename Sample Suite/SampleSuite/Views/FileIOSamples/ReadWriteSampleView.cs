@@ -8,10 +8,12 @@ using SampleSuite.Resources;
 
 namespace SampleSuite
 {
-    [NavigationView]
+    [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
     public class ReadWriteSampleView : BaseSampleView<ReadWriteSampleModel>
     {
+        public const string Perspective = "ReadWrite";
+
         public override async Task ConfigureUIAsync()
         {
             await base.ConfigureUIAsync();
@@ -26,14 +28,14 @@ namespace SampleSuite
 
             var readButton = new MenuButton()
             {
-                Title = "Read",
+                Title = Strings.Read,
                 IsEnabled = Model.FileExists,
                 Action = async (button) => textArea.Text = await File.ReadAllTextAsync(Model.FileName)
             };
 
             var writeButton = new MenuButton()
             {
-                Title = "Write",
+                Title = Strings.Write,
                 IsEnabled = Model.FileExists,
                 Action = async (button) =>
                 {

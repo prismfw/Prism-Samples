@@ -12,7 +12,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class PointerEventsSampleView : BaseSampleView<InputSampleModel>
+    public class PointerEventsSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "PointerEvents";
 
@@ -37,9 +37,9 @@ namespace SampleSuite
                 VerticalAlignment = VerticalAlignment.Stretch
             };
 
-            grid.PointerPressed += (o, e) => SetLabelText("Pressed", e);
-            grid.PointerMoved += (o, e) => SetLabelText("Moved", e);
-            grid.PointerReleased += (o, e) => SetLabelText("Released", e);
+            grid.PointerPressed += (o, e) => SetLabelText(Strings.Pressed, e);
+            grid.PointerMoved += (o, e) => SetLabelText(Strings.Moved, e);
+            grid.PointerReleased += (o, e) => SetLabelText(Strings.Released, e);
 
             SetContent(grid);
         }

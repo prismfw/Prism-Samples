@@ -161,11 +161,29 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Draw.
+        /// </summary>
+        internal static string Draw {
+            get {
+                return ResourceManager.GetString("Draw", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Enter the index at which to insert the new item.  Valid values are 0-{0}..
         /// </summary>
         internal static string EnterIndexValue {
             get {
                 return ResourceManager.GetString("EnterIndexValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Erase.
+        /// </summary>
+        internal static string Erase {
+            get {
+                return ResourceManager.GetString("Erase", resourceCulture);
             }
         }
         
@@ -377,7 +395,7 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This sample demonstrates the Label control, which renders a string of read-only text.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below..
+        ///   Looks up a localized string similar to This sample demonstrates the Label control, which renders a string of read-only text.  The text automatically wraps to a specified number of lines, and any text that doesn&apos;t fit is truncated and ellipsized.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below..
         /// </summary>
         internal static string LabelSampleDescription {
             get {
@@ -418,6 +436,15 @@ namespace SampleSuite.Resources {
         internal static string Mode {
             get {
                 return ResourceManager.GetString("Mode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Moved.
+        /// </summary>
+        internal static string Moved {
+            get {
+                return ResourceManager.GetString("Moved", resourceCulture);
             }
         }
         
@@ -530,6 +557,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pressed.
+        /// </summary>
+        internal static string Pressed {
+            get {
+                return ResourceManager.GetString("Pressed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pressure.
         /// </summary>
         internal static string Pressure {
@@ -544,6 +580,15 @@ namespace SampleSuite.Resources {
         internal static string Purple {
             get {
                 return ResourceManager.GetString("Purple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Read.
+        /// </summary>
+        internal static string Read {
+            get {
+                return ResourceManager.GetString("Read", resourceCulture);
             }
         }
         
@@ -580,6 +625,15 @@ namespace SampleSuite.Resources {
         internal static string Refresh {
             get {
                 return ResourceManager.GetString("Refresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Released.
+        /// </summary>
+        internal static string Released {
+            get {
+                return ResourceManager.GetString("Released", resourceCulture);
             }
         }
         
@@ -931,6 +985,15 @@ namespace SampleSuite.Resources {
         internal static string WithoutAdapter {
             get {
                 return ResourceManager.GetString("WithoutAdapter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write.
+        /// </summary>
+        internal static string Write {
+            get {
+                return ResourceManager.GetString("Write", resourceCulture);
             }
         }
         

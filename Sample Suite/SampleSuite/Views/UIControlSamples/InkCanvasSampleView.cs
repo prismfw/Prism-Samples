@@ -12,7 +12,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class InkCanvasSampleView : BaseSampleView<UIControlsSampleModel>
+    public class InkCanvasSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "InkCanvas";
 
@@ -89,6 +89,23 @@ namespace SampleSuite
                     {
                         Title = Strings.Clear,
                         Action = (button) => canvas.Strokes.Clear()
+                    },
+                    new MenuButton()
+                    {
+                        Title = Strings.Erase,
+                        Action = (button) =>
+                        {
+                            if (canvas.InputMode == InkInputMode.Inking)
+                            {
+                                button.Title = Strings.Draw;
+                                canvas.InputMode = InkInputMode.Erasing;
+                            }
+                            else
+                            {
+                                button.Title = Strings.Erase;
+                                canvas.InputMode = InkInputMode.Inking;
+                            }
+                        }
                     }
                 }
             };

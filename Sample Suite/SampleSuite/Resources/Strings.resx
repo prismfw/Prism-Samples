@@ -349,7 +349,7 @@
     <value>Label</value>
   </data>
   <data name="LabelSampleDescription" xml:space="preserve">
-    <value>This sample demonstrates the Label control, which renders a string of read-only text.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below.</value>
+    <value>This sample demonstrates the Label control, which renders a string of read-only text.  The text automatically wraps to a specified number of lines, and any text that doesn't fit is truncated and ellipsized.  There are several alignment options that affect the way the text is laid out.  These alignment options can be seen below.</value>
   </data>
   <data name="DoubleTapped" xml:space="preserve">
     <value>Double Tapped!</value>
@@ -405,10 +405,31 @@
   <data name="Yellow" xml:space="preserve">
     <value>Yellow</value>
   </data>
+  <data name="Draw" xml:space="preserve">
+    <value>Draw</value>
+  </data>
+  <data name="Erase" xml:space="preserve">
+    <value>Erase</value>
+  </data>
   <data name="MultiTouch" xml:space="preserve">
     <value>MultiTouch</value>
   </data>
   <data name="MultiTouchSampleDescription" xml:space="preserve">
     <value>This sample demonstrates the use of multiple simultaneous touch inputs.  To experience this sample to the fullest, make sure that you're using a device with a touch screen.  Place one or more fingers in the area below.  A circle will appear under each contact point.  Move each finger to drag its corresponding circle, or lift the finger to remove the circle.</value>
+  </data>
+  <data name="Read" xml:space="preserve">
+    <value>Read</value>
+  </data>
+  <data name="Write" xml:space="preserve">
+    <value>Write</value>
+  </data>
+  <data name="Moved" xml:space="preserve">
+    <value>Moved</value>
+  </data>
+  <data name="Pressed" xml:space="preserve">
+    <value>Pressed</value>
+  </data>
+  <data name="Released" xml:space="preserve">
+    <value>Released</value>
   </data>
 </root>

@@ -14,7 +14,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class MultiTouchSampleView : BaseSampleView<InputSampleModel>
+    public class MultiTouchSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "MultiTouch";
 

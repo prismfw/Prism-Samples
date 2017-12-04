@@ -10,7 +10,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class TransformSampleView : BaseSampleView<StylingSampleModel>
+    public class TransformSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "Transform";
 

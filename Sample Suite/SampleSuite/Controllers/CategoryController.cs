@@ -52,7 +52,7 @@ namespace SampleSuite
                 new Category(MultiBindingSampleView.Perspective)
             ),
             new Category("FileIO",
-                new Category("ReadWrite")
+                new Category(ReadWriteSampleView.Perspective)
             ),
             new Category("Input",
                 new Category(PointerEventsSampleView.Perspective),

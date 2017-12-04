@@ -14,7 +14,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class WebBrowserSampleView : BaseSampleView<UIControlsSampleModel>
+    public class WebBrowserSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "WebBrowser";
 

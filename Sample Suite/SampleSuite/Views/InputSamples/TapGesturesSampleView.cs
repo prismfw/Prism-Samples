@@ -12,7 +12,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class TapGesturesSampleView : BaseSampleView<InputSampleModel>
+    public class TapGesturesSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "TapGestures";
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleSuite
 {
-    public class LabelSampleModel : UIControlsSampleModel
+    public class LabelSampleModel : BaseSampleModel
     {
         public string LabelText { get; set; }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleSuite
 {
-    public class ImageSampleModel : UIControlsSampleModel
+    public class ImageSampleModel : BaseSampleModel
     {
         public Uri ImageUri { get; set; }
     }

@@ -13,7 +13,7 @@ namespace SampleSuite
 {
     [NavigationView(Perspective)]
     [PreferredPanes(Panes.Detail)]
-    public class ShapesSampleView : BaseSampleView<UIControlsSampleModel>
+    public class ShapesSampleView : BaseSampleView<BaseSampleModel>
     {
         public const string Perspective = "Shapes";
 

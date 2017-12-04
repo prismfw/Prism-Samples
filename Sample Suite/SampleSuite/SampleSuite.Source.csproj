@@ -36,28 +36,20 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
-    <Compile Include="Controllers\DataBindingSamples\DataBindingSampleController.cs" />
     <Compile Include="Controllers\FileIOSamples\ReadWriteSampleController.cs" />
-    <Compile Include="Controllers\InputSamples\InputSampleController.cs" />
     <Compile Include="Controllers\RootViewSamples\RootViewSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\SelectListSampleController.cs" />
+    <Compile Include="Controllers\BaseSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\LabelSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ImageSampleController.cs" />
-    <Compile Include="Controllers\UIControlSamples\FlyoutSampleController.cs" />
-    <Compile Include="Controllers\UIControlSamples\WebBrowserSampleController.cs" />
-    <Compile Include="Controllers\UIControlSamples\InkCanvasSampleController.cs" />
-    <Compile Include="Controllers\UIControlSamples\ShapesSampleController.cs" />
     <Compile Include="Controllers\UIControlSamples\ListBoxSampleController.cs" />
     <Compile Include="Models\BaseSampleModel.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\DataBindingSamples\DataBindingSampleModel.cs" />
     <Compile Include="Models\FileIOSamples\ReadWriteSampleModel.cs" />
-    <Compile Include="Models\InputSamples\InputSampleModel.cs" />
     <Compile Include="Models\RootViewSamples\RootViewSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\LabelSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ImageSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\SelectListSampleModel.cs" />
-    <Compile Include="Models\UIControlSamples\UIControlsSampleModel.cs" />
     <Compile Include="Models\UIControlSamples\ListBoxSampleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Strings.Designer.cs">
@@ -88,8 +80,6 @@
     <Compile Include="Views\UIControlSamples\ShapesSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxSectioningSampleView.cs" />
     <Compile Include="Views\UIControlSamples\ListBoxAddRemoveSampleView.cs" />
-    <Compile Include="Models\StylingSamples\StylingSampleModel.cs" />
-    <Compile Include="Controllers\StylingSamples\StylingSampleController.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Strings.resx">
