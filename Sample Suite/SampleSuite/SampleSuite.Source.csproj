@@ -70,6 +70,8 @@
     <Compile Include="Views\RootViewSamples\RootViewSampleView.cs" />
     <Compile Include="Views\StylingSamples\BrushesSampleView.cs" />
     <Compile Include="Views\StylingSamples\TransformSampleView.cs" />
+    <Compile Include="Views\SystemsAndSensorsSamples\DeviceInformationSampleView.cs" />
+    <Compile Include="Views\SystemsAndSensorsSamples\AccelerometerSampleView.cs" />
     <Compile Include="Views\TableOfContentsView.cs" />
     <Compile Include="Views\UIControlSamples\FlyoutSampleView.cs" />
     <Compile Include="Views\UIControlSamples\LabelSampleView.cs" />

@@ -64,6 +64,9 @@ namespace SampleSuite
                 new Category(BrushesSampleView.Perspective),
                 new Category(TransformSampleView.Perspective)
             ),
+            new Category("SystemsAndSensors",
+                new Category(DeviceInformationSampleView.Perspective),
+                new Category(AccelerometerSampleView.Perspective)),
             new Category("UIControls",
                 new Category(FlyoutSampleView.Perspective),
                 new Category(ImageSampleView.Perspective),

@@ -62,6 +62,24 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This sample demonstrates the use of the device&apos;s accelerometer.  The slider can be used to adjust the preferred delay between readings.  Higher values mean longer delays..
+        /// </summary>
+        internal static string AccelerometerSampleDescription {
+            get {
+                return ResourceManager.GetString("AccelerometerSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An accelerometer is not available for this device!.
+        /// </summary>
+        internal static string AccelerometerUnavailable {
+            get {
+                return ResourceManager.GetString("AccelerometerUnavailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Action.
         /// </summary>
         internal static string Action {
@@ -80,11 +98,47 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to X.
+        /// </summary>
+        internal static string AxisX {
+            get {
+                return ResourceManager.GetString("AxisX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Y.
+        /// </summary>
+        internal static string AxisY {
+            get {
+                return ResourceManager.GetString("AxisY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Z.
+        /// </summary>
+        internal static string AxisZ {
+            get {
+                return ResourceManager.GetString("AxisZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Back.
         /// </summary>
         internal static string Back {
             get {
                 return ResourceManager.GetString("Back", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Battery Percentage.
+        /// </summary>
+        internal static string BatteryLevel {
+            get {
+                return ResourceManager.GetString("BatteryLevel", resourceCulture);
             }
         }
         
@@ -148,6 +202,60 @@ namespace SampleSuite.Resources {
         internal static string DataBinding {
             get {
                 return ResourceManager.GetString("DataBinding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Id.
+        /// </summary>
+        internal static string DeviceId {
+            get {
+                return ResourceManager.GetString("DeviceId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Information.
+        /// </summary>
+        internal static string DeviceInformation {
+            get {
+                return ResourceManager.GetString("DeviceInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This samples retrieves information about the physical device on which this application is running..
+        /// </summary>
+        internal static string DeviceInformationSampleDescription {
+            get {
+                return ResourceManager.GetString("DeviceInformationSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Model.
+        /// </summary>
+        internal static string DeviceModel {
+            get {
+                return ResourceManager.GetString("DeviceModel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Device Name.
+        /// </summary>
+        internal static string DeviceName {
+            get {
+                return ResourceManager.GetString("DeviceName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Display Scale.
+        /// </summary>
+        internal static string DisplayScale {
+            get {
+                return ResourceManager.GetString("DisplayScale", resourceCulture);
             }
         }
         
@@ -238,6 +346,15 @@ namespace SampleSuite.Resources {
         internal static string FlyoutSampleDescription {
             get {
                 return ResourceManager.GetString("FlyoutSampleDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Form Factor.
+        /// </summary>
+        internal static string FormFactor {
+            get {
+                return ResourceManager.GetString("FormFactor", resourceCulture);
             }
         }
         
@@ -485,6 +602,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to N/A.
+        /// </summary>
+        internal static string NA {
+            get {
+                return ResourceManager.GetString("NA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Normal.
         /// </summary>
         internal static string Normal {
@@ -499,6 +625,15 @@ namespace SampleSuite.Resources {
         internal static string OK {
             get {
                 return ResourceManager.GetString("OK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Operating System.
+        /// </summary>
+        internal static string OperatingSystem {
+            get {
+                return ResourceManager.GetString("OperatingSystem", resourceCulture);
             }
         }
         
@@ -521,11 +656,29 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to OS Version.
+        /// </summary>
+        internal static string OSVersion {
+            get {
+                return ResourceManager.GetString("OSVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Pen Size and Shape.
         /// </summary>
         internal static string PenSizeAndShape {
             get {
                 return ResourceManager.GetString("PenSizeAndShape", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Physical Orientation.
+        /// </summary>
+        internal static string PhysicalOrientation {
+            get {
+                return ResourceManager.GetString("PhysicalOrientation", resourceCulture);
             }
         }
         
@@ -553,6 +706,15 @@ namespace SampleSuite.Resources {
         internal static string Position {
             get {
                 return ResourceManager.GetString("Position", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Power Source.
+        /// </summary>
+        internal static string PowerSource {
+            get {
+                return ResourceManager.GetString("PowerSource", resourceCulture);
             }
         }
         
@@ -809,6 +971,15 @@ namespace SampleSuite.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to System Uptime.
+        /// </summary>
+        internal static string SystemUptime {
+            get {
+                return ResourceManager.GetString("SystemUptime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Tab {0}.
         /// </summary>
         internal static string Tab {
@@ -949,6 +1120,15 @@ namespace SampleSuite.Resources {
         internal static string UnknownCategoryError {
             get {
                 return ResourceManager.GetString("UnknownCategoryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update Interval:.
+        /// </summary>
+        internal static string UpdateInterval {
+            get {
+                return ResourceManager.GetString("UpdateInterval", resourceCulture);
             }
         }
         

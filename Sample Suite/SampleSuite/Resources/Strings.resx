@@ -432,4 +432,64 @@
   <data name="Released" xml:space="preserve">
     <value>Released</value>
   </data>
+  <data name="BatteryLevel" xml:space="preserve">
+    <value>Battery Percentage</value>
+  </data>
+  <data name="DeviceId" xml:space="preserve">
+    <value>Device Id</value>
+  </data>
+  <data name="DeviceInformation" xml:space="preserve">
+    <value>Device Information</value>
+  </data>
+  <data name="DeviceInformationSampleDescription" xml:space="preserve">
+    <value>This samples retrieves information about the physical device on which this application is running.</value>
+  </data>
+  <data name="DeviceModel" xml:space="preserve">
+    <value>Device Model</value>
+  </data>
+  <data name="DeviceName" xml:space="preserve">
+    <value>Device Name</value>
+  </data>
+  <data name="DisplayScale" xml:space="preserve">
+    <value>Display Scale</value>
+  </data>
+  <data name="FormFactor" xml:space="preserve">
+    <value>Form Factor</value>
+  </data>
+  <data name="OperatingSystem" xml:space="preserve">
+    <value>Operating System</value>
+  </data>
+  <data name="OSVersion" xml:space="preserve">
+    <value>OS Version</value>
+  </data>
+  <data name="PhysicalOrientation" xml:space="preserve">
+    <value>Physical Orientation</value>
+  </data>
+  <data name="PowerSource" xml:space="preserve">
+    <value>Power Source</value>
+  </data>
+  <data name="SystemUptime" xml:space="preserve">
+    <value>System Uptime</value>
+  </data>
+  <data name="AccelerometerSampleDescription" xml:space="preserve">
+    <value>This sample demonstrates the use of the device's accelerometer.  The slider can be used to adjust the preferred delay between readings.  Higher values mean longer delays.</value>
+  </data>
+  <data name="AccelerometerUnavailable" xml:space="preserve">
+    <value>An accelerometer is not available for this device!</value>
+  </data>
+  <data name="UpdateInterval" xml:space="preserve">
+    <value>Update Interval:</value>
+  </data>
+  <data name="AxisX" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="AxisY" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="AxisZ" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="NA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
 </root>
